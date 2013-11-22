@@ -217,7 +217,7 @@ This page will be available at `http://yourdomain.com/people/bob/essay.html`
 
 
 ## Templates in Jekyll
-$
+
 Templates are used to contain a page's or post's content.
 All templates have access to a global site object variable: `site` as well as a page object variable: `page`.
 The site variable holds all accessible content and metadata relative to the site.

@@ -17,7 +17,6 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-    <link href="{{ ASSET_PATH }}/css/stylesheet.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -34,45 +33,33 @@
   </head>
 
   <body>
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-            <h1 id="project_title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
-            <h2 id="project_tagline">Temperando bem seu codigo</h2>
-        </header>
-    </div>
-
-    <nav>
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container-narrow">
-
-              <ul class="nav">
-                {% assign pages_list = site.pages %}
-                {% assign group = 'navigation' %}
-                {% include JB/pages_list %}
-              </ul>
-            </div>
-          </div>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
         </div>
-    </nav>
-
-
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-            {{ content }}
-        </section>
+      </div>
     </div>
 
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">
-          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+    <div class="container-narrow">
+
+      <div class="content">
+        {{ content }}
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
-    </div>
 
+    </div>
 
     {% include JB/analytics %}
   </body>
