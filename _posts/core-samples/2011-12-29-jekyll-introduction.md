@@ -1,7 +1,10 @@
 ---
 layout: post
 category : lessons
-tagline: "Supporting tagline"
+title: "Introducao ao jekyll"
+summary: "Introducao ao jekyll"
+date: 2013-11-20 10:50:00
+date_str: "25 nov 2013"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
