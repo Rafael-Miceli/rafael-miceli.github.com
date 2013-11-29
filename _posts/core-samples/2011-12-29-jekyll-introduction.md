@@ -5,7 +5,9 @@ category : lessons
 title: "Introducao ao jekyll we'll"
 summary: "This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we'll learn exactly how Jekyll does what it does."
 date: 2013-11-20 10:50:00
-date_str: "25 nov 2013"
+date_str: "2 dez 2013"
+month_str: "Dezembro"
+previous_month_str: "Novembro"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
