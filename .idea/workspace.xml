@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49eb817-7cdf-440c-a669-98fd64ff0b08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_about.html" afterPath="$PROJECT_DIR$/page_about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
     </list>
     <ignored path="rafael-miceli.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page_about.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page_about.html">
+      <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.33278957" vertical-offset="0" max-vertical-offset="613">
+            <state line="39" column="53" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.24959217" vertical-offset="510" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
@@ -54,7 +53,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
         <option value="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
         <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/page.html" />
@@ -68,6 +66,7 @@
         <option value="$PROJECT_DIR$/_posts/core-samples/2011-12-29-jekyll-introduction.md" />
         <option value="$PROJECT_DIR$/_includes/JB/pages_list" />
         <option value="$PROJECT_DIR$/page_about.html" />
+        <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
       </list>
     </option>
   </component>
@@ -103,7 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,8 +234,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -335,11 +334,6 @@
         <state line="42" column="14" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.7653374" vertical-offset="215" max-vertical-offset="867" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="49" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.22185971" vertical-offset="510" max-vertical-offset="1428" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2011-12-29-jekyll-introduction.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="348" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7191" />
@@ -363,6 +357,13 @@
     <entry file="file://$PROJECT_DIR$/page_about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.33278957" vertical-offset="0" max-vertical-offset="613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="53" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.24959217" vertical-offset="510" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
