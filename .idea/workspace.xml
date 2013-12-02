@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49eb817-7cdf-440c-a669-98fd64ff0b08" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rafael.miceli\Documents\GitHub\rafael-miceli.github.com\_posts\core-samples\2011-12-29-jekyll-introduction.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md" />
     </list>
     <ignored path="rafael-miceli.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="2013-12-02-Empacamento-Na-Aplicacao.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="156" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.4147105" vertical-offset="466" max-vertical-offset="1530">
+            <state line="64" column="392" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.9467919" vertical-offset="483" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -342,7 +341,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="156" selection-start="1893" selection-end="1893" vertical-scroll-proportion="0.4147105" vertical-offset="466" max-vertical-offset="1530">
+        <state line="64" column="392" selection-start="3535" selection-end="3535" vertical-scroll-proportion="0.9467919" vertical-offset="483" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>

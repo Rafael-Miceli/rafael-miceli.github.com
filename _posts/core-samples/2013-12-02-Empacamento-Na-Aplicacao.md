@@ -56,13 +56,13 @@ Busque no google a mensagem de erro que apareceu para voce, lembrando de remover
 ### 7 - SERIO, LEIA O RESULTADO DA BUSCA
 
 
-Parece que ler eh a parte mais dificil em solucionar um problema. Ja fiz buscas onde ao inves de eu parar para ler direito o que alguem havia comentando de como solucionou o problema, eu so dava uma rapida olhada, e buscava em outros lugares, e em outros lugares, e quando ja estava saturado e decidia ler com mais calma, ESTAVA TODO TEMPO NO PRIMEIRO LUGAR QUE ACHEI.... Ou seja, busque no Google. Quando ver algum link que parece ter a resposta clique nele e LEIA O ARTIGO, nao apenas role o scroll pela pagina. ###Leia!
+Parece que ler eh a parte mais dificil em solucionar um problema. Ja fiz buscas onde ao inves de eu parar para ler direito o que alguem havia comentando de como solucionou o problema, eu so dava uma rapida olhada, e buscava em outros lugares, e em outros lugares, e quando ja estava saturado e decidia ler com mais calma, ESTAVA TODO TEMPO NO PRIMEIRO LUGAR QUE ACHEI.... Ou seja, busque no Google. Quando ver algum link que parece ter a resposta clique nele e LEIA O ARTIGO, nao apenas role o scroll pela pagina. Leia!
 
 
 ### 8 - Pergunte ao seu pet
 
 
-Sim, pergunte a um Pet que voce tenha, talvez uma Capivara na sua mesa ne Katia? Ou um pato, ou mesmo ao seu gato ou seu cachorro, mas pergunte em voz alta! Quando você pergunta em voz alta, seu cerebro compreende melhor o problema, parece loucura ne? Mas pense nas vezes que so de falar com alguem que nao entenda nada do que voce esta dizendo, ja eh o suficiente para te trazer aquele ####A-HA!
+Sim, pergunte a um Pet que voce tenha, talvez uma Capivara na sua mesa ne Katia? Ou um pato, ou mesmo ao seu gato ou seu cachorro, mas pergunte em voz alta! Quando você pergunta em voz alta, seu cerebro compreende melhor o problema, parece loucura ne? Mas pense nas vezes que so de falar com alguem que nao entenda nada do que voce esta dizendo, ja eh o suficiente para te trazer aquele #### A-HA!
 
 
 ### 9 - Pergunte a um amigo
