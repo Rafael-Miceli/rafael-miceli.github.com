@@ -62,7 +62,7 @@ Parece que ler eh a parte mais dificil em solucionar um problema. Ja fiz buscas 
 ### 8 - Pergunte ao seu pet
 
 
-Sim, pergunte a um Pet que voce tenha, talvez uma Capivara na sua mesa ne Katia? Ou um pato, ou mesmo ao seu gato ou seu cachorro, mas pergunte em voz alta! Quando você pergunta em voz alta, seu cerebro compreende melhor o problema, parece loucura ne? Mas pense nas vezes que so de falar com alguem que nao entenda nada do que voce esta dizendo, ja eh o suficiente para te trazer aquele #### A-HA!
+Sim, pergunte a um Pet que voce tenha, talvez uma Capivara na sua mesa ne Katia? Ou um pato, ou mesmo ao seu gato ou seu cachorro, mas pergunte em voz alta! Quando você pergunta em voz alta, seu cerebro compreende melhor o problema, parece loucura ne? Mas pense nas vezes que so de falar com alguem que nao entenda nada do que voce esta dizendo, ja eh o suficiente para te trazer aquele A-HA!
 
 
 ### 9 - Pergunte a um amigo
