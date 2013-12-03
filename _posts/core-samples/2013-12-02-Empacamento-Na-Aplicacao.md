@@ -12,7 +12,7 @@ tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-[Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu há algum tempo um artigo sobre como resolver os problemas que empacam a gente no código
+[Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu há algum tempo um artigo sobre como resolver os problemas que empacam a gente no código.
 
 Ele lista alguns passos para conseguir achar a solução para desempacar daquela situação que é difícil de sair. Mesmo às vezes sendo uma coisa simples ou aquele detalhe que fica esquecido.
 
