@@ -40,7 +40,7 @@ Para quem quiser outro sem ser o Evernote, também tem o OneNote, além de outro
 ### 4 - Crie um teste unitário
 
 
-Se você está tendo um erro desses aparecendo no seu código em runtime, é porque, provavelmente, ele não foi coberto com um teste. E dependendo da sua aplicação, a maneira de reproduzir este erro usando o programa, pode ser trabalhosa. Geralmente, um teste unitário facilita muito, tanto na reprodução do erro quanto na verifição se funcionou as correções que foram aplicadas. Também ajuda a entender melhor o que esta acontecendo no código. Sem contar que após isso, seu código estará coberto pelo teste, ou seja, se o erro aparecer novamente seu teste antes vai indicá-lo para você.
+Se você está tendo um erro desses aparecendo no seu código em runtime, é porque, provavelmente, ele não foi coberto com um teste. E dependendo da sua aplicação, a maneira de reproduzir este erro usando o programa, pode ser trabalhosa. Geralmente, um teste unitário facilita muito, tanto na reprodução do erro quanto na verifição se funcionou as correções que foram aplicadas. Também ajuda a entender melhor o que está acontecendo no código. Sem contar que após isso, seu código estará coberto pelo teste, ou seja, se o erro aparecer novamente seu teste antes vai indicá-lo para você.
 
 
 ### 5 - Google It!
