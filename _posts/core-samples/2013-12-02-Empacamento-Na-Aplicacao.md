@@ -8,7 +8,6 @@ date: 2013-12-02 18:50:00
 date_str: "2 dez 2013"
 month_str: "Dezembro"
 previous_month_str: "Novembro"
-tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
