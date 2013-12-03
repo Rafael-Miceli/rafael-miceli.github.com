@@ -2,8 +2,8 @@
 comments: true
 layout: post
 category : lessons
-title: "Emapacou no codigo? Aqui vai umas dicas..."
-summary: "Doug Bradbury escreveu a algum tempo um artigo sobre como resolver os problemas que empacam agente no codigo..."
+title: "Empacou no codigo? Aqui vao algumas dicas..."
+summary: "Doug Bradbury escreveu ha algum tempo um artigo sobre como resolver os problemas que empacam agente no codigo..."
 date: 2013-12-02 18:50:00
 date_str: "2 dez 2013"
 month_str: "Dezembro"
@@ -12,9 +12,9 @@ tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
-[Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu a algum tempo um artigo sobre como resolver os problemas que empacam agente no codigo
+[Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu ha algum tempo um artigo sobre como resolver os problemas que empacam agente no código
 
-Ele lista alguns passos para conseguir achar a solucao para desempacar daquela situacao que eh dificil sair. Mesmo as vezes sendo uma coisa simples ou aquele detalhe que fica esquecido.
+Ele lista alguns passos para conseguir achar a solução para desempacar daquela situação que eh difícil sair. Mesmo as vezes sendo uma coisa simples ou aquele detalhe que fica esquecido.
 
 Eu passo por essa situacao DIVERSAS vezes. Vou listar os passos que ele partilhou, mais algumas coisas que eu tambem aprendi com os passos dele e com outras tecnicas.
 
