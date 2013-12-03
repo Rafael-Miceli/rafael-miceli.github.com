@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d49eb817-7cdf-440c-a669-98fd64ff0b08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md" afterPath="$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rafael-miceli.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="2013-12-02-Empacamento-Na-Aplicacao.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.29264477" vertical-offset="102" max-vertical-offset="1530">
+            <state line="83" column="0" selection-start="4665" selection-end="4665" vertical-scroll-proportion="0.81377155" vertical-offset="891" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -227,7 +226,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="79" width="1186" height="833" extended-state="0" />
+    <frame x="50" y="79" width="1186" height="833" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -338,7 +337,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/core-samples/2013-12-02-Empacamento-Na-Aplicacao.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="750" selection-end="750" vertical-scroll-proportion="0.29264477" vertical-offset="102" max-vertical-offset="1530">
+        <state line="83" column="0" selection-start="4665" selection-end="4665" vertical-scroll-proportion="0.81377155" vertical-offset="891" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
