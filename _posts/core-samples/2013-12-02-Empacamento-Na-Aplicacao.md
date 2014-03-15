@@ -2,8 +2,8 @@
 comments: true
 layout: post
 category : lessons
-title: "Empacou no codigo? Aqui vao algumas dicas..."
-summary: "Doug Bradbury escreveu ha algum tempo um artigo sobre como resolver os problemas que empacam agente no codigo..."
+title: "Empacou no código? Aqui vão algumas dicas..."
+summary: "Doug Bradbury escreveu ha algum tempo um artigo sobre como resolver os problemas que empacam agente no código..."
 date: 2013-12-02 18:50:00
 date_str: "2 dez 2013"
 month_str: "Dezembro"
