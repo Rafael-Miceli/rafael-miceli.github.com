@@ -40,4 +40,49 @@ Após cadastrar um cliente (um teste), na tela precisa ser exibido o nome + sobr
 Este exemplo é clássico. Imagina que seu cliente queira que na aplicação, o "nome" e o "sobrenome" deles devem ser exibido juntos, mas "nome" e "sobrenome" são fields diferentes na sua aplicação. 
 
 O código fica da seguinte forma (por favor atenha-se a abstração de eu não ter criado getters e setters): 
+
+Aplicação:
+
+	public class Principal {
+
+		public static void main(String args[]){
+
+			Cliente cliente = new Cliente();
+
+			cliente.Nome = "Ash";
+			cliente.Sobrenome = "Ketchun";
+
+			System.out.println(cliente.RetornarNomeMaisSobrenome());
+		}
+	}
+
+	class Cliente{
+		public String Nome;
+		public String Sobrenome;
+
+		public String RetornarNomeMaisSobrenome(){
+			return Nome + " " + Sobrenome;
+		}
+	}
+
+==================================================================
+
+Teste:
+
+	public class ClienteTest {
+
+		@Test
+		public void Test_Retornar_Nome_Mais_Sobrenome() {
+
+			String nome = "Meu";
+			String sobrenome = "Nome";
+
+			Cliente cliente = new Cliente();
+
+			cliente.Nome = nome;
+			cliente.Sobrenome = sobrenome;
+
+			Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
+		}
+	}
  
