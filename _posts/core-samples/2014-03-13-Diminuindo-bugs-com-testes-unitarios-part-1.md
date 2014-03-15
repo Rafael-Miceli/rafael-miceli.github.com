@@ -31,4 +31,13 @@ E convenhamos, para a maioria essa é a parte "chata", no momento de testar a su
 Ex: Digamos que você vá testar uma aplicação, e sempre que você executa ela, você precisa se logar primeiro. Logo após vc precisa acessar a página necessária e preencher um formulário com dados. Após preencher os dados, vc clica em um botão e precisa testar se gravou tudo correto. Agora imagina isto repetido 10 vezes?
 
 Além de consumir bastante seu tempo torna o trabalho mais estressante, podendo levar você a procurar a solução mais rápido o possível (Mas que pode dar uma temperada com azeite no seu código)
+
+### Exemplos de teste unitário
+
+Não vou abordar o exemplo que descrevi acima (ainda). Para simplificar, o cenário de exemplo que estou propondo é: 
+Após cadastrar um cliente (um teste), na tela precisa ser exibido o nome + sobrenome deste cliente (outro teste).
+
+Este exemplo é clássico. Imagina que seu cliente queira que na aplicação, o "nome" e o "sobrenome" deles devem ser exibido juntos, mas "nome" e "sobrenome" são fields diferentes na sua aplicação. 
+
+O código fica da seguinte forma (por favor atenha-se a abstração de eu não ter criado getters e setters): 
  
