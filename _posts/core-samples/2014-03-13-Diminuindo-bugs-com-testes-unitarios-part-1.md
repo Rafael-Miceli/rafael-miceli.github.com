@@ -41,7 +41,7 @@ Este exemplo é clássico. Imagina que seu cliente queira que na aplicação, o 
 
 O código fica da seguinte forma (por favor atenha-se a abstração de eu não ter criado getters e setters): 
 
-Aplicação:
+####Aplicação:
 
 	public class Principal {
 
@@ -64,3 +64,25 @@ Aplicação:
 			return Nome + " " + Sobrenome;
 		}
 	}
+
+####Teste:
+
+	public class ClienteTest {
+
+		@Test
+		public void Test_Retornar_Nome_Mais_Sobrenome() {
+
+			String nome = "Meu";
+			String sobrenome = "Nome";
+
+			Cliente cliente = new Cliente();
+
+			cliente.Nome = nome;
+			cliente.Sobrenome = sobrenome;
+
+			Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
+		}
+	}
+
+
+No próximo artigo (próxima semana) vou abordar mais a prática de testes unitários.	
