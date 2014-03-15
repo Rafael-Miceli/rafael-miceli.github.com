@@ -64,25 +64,3 @@ Aplicação:
 			return Nome + " " + Sobrenome;
 		}
 	}
-
-==================================================================
-
-Teste:
-
-	public class ClienteTest {
-
-		@Test
-		public void Test_Retornar_Nome_Mais_Sobrenome() {
-
-			String nome = "Meu";
-			String sobrenome = "Nome";
-
-			Cliente cliente = new Cliente();
-
-			cliente.Nome = nome;
-			cliente.Sobrenome = sobrenome;
-
-			Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
-		}
-	}
- 
