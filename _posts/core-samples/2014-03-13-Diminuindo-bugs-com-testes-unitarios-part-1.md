@@ -22,15 +22,17 @@ Nós as vezes repetimos o mesmo teste referente a uma tarefa mais de 10 vezes (s
 
 ### Uma das vantagens:
  
-quando você esta fazendo sua aplicação o fluxo comum é:
+Quando você esta fazendo sua aplicação o fluxo comum é:
  
 analisar o problema, criar o código para soluciona-lo, e testar a aplicação. 
-se o código criado gerar algum erro em runtime ou não agir da forma esperada (o que não é difícil) então você tenta novamente, e novamente, e assim vai.
-E convenhamos, para a maioria essa é a parte "chata", no momento de testar a sua aplicação, e principalmente dependendo de como for para testa-la.
+Se o código criado gerar algum erro em runtime ou não agir da forma esperada (o que não é difícil) então você tenta novamente, e novamente, e assim vai.
+E convenhamos, para a maioria essa é a parte "chata" (o momento de testar a aplicação) e principalmente dependendo de como for para testa-la.
 
 Ex: Digamos que você vá testar uma aplicação, e sempre que você executa ela, você precisa se logar primeiro. Logo após vc precisa acessar a página necessária e preencher um formulário com dados. Após preencher os dados, vc clica em um botão e precisa testar se gravou tudo correto. Agora imagina isto repetido 10 vezes?
 
-Além de consumir bastante seu tempo torna o trabalho mais estressante, podendo levar você a procurar a solução mais rápido o possível (Mas que pode dar uma temperada com azeite no seu código)
+Além de consumir bastante seu tempo, torna o trabalho mais estressante, podendo levar você a procurar a solução mais rápido o possível (Mas que pode dar uma temperada com azeite no seu código)
+
+Agora, imagina poder substituir isso tudo, por apenas **um clique de botão**? Seria excelente não?
 
 ### Exemplos de teste unitário
 
