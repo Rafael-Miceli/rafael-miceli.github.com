@@ -41,6 +41,8 @@ Tem também a IDE de teste unitário. o Visual Studio ja vem com uma, o Nunit te
 
 Você usa a que você se sentir confortável, tem bastante opção por ai.
 
+Só para vocês terem uma idéia da quantidade aqui vai uma listinha amiga do [wikpedia] (http://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#.NET_programming_languages)
+
 Para comparar um pouco e você entender melhor os Frameworks no .Net também existem no Java. 
 
 Um dos mais famosos é o JUnit, este é o que venho usando nos exemplos ultimamente. Nele o Assert para validar igualdade se vocês lembram é o "Assert.isEqual(expected, actual)"
