@@ -7,7 +7,7 @@ summary: "No artigo anterior expliquei um pouco sobre teste unitário e como..."
 date: 2014-03-21 19:15:00
 date_str: "21 mar 2014"
 month_str: "Março"
-previous_month_str: "Dezembro"
+previous_month_str: "Março"
 ---
 {% include JB/setup %}
 

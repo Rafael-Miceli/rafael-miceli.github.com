@@ -7,7 +7,7 @@ summary: "Antes de dar continuidade a saga dos testes unitários, vou precisar m
 date: 2014-03-31 11:15:00
 date_str: "31 mar 2014"
 month_str: "Março"
-previous_month_str: "Dezembro"
+previous_month_str: "Março"
 ---
 {% include JB/setup %}
 

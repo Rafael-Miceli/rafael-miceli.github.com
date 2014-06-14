@@ -14,22 +14,14 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
+    <!-- Styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
     <link href="{{ ASSET_PATH }}/css/stylesheet.css?body=1" rel="stylesheet" type="text/css" media="all">
 
-    <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
-
     <!-- atom & rss feed -->
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Ideias com azeite ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Ideias com azeite RSS Feed">
 
   </head>
 
@@ -37,7 +29,7 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
             <h1 id="project_title"><a href="{{ HOME_PATH }}">{{ site.title }}</a></h1>
-            <h2 id="project_tagline">Temperando bem seu código</h2>
+            <h2 id="project_tagline">{{ site.tagline }}</h2>
         </header>
     </div>
 
@@ -57,17 +49,27 @@
 
 
     <div id="main_content_wrap" class="outer">
+		{% if page.title == 'Home' %}
+			<div style="float: right; margin-top: 20px; margin-right: 6%">
+				<a href="{{site.production_url}}rss.xml" target="_blank"><img src="assets\themes\Icons\webicon-rss-m.png" alt="rss"></img></a>
+				<a href="https://www.facebook.com/Rafa.Miceli" target="_blank"><img src="assets\themes\Icons\webicon-facebook-m.png" alt="facebook"></img></a>
+				<a href="https://twitter.com/rafaelmiceli" target="_blank"><img src="assets\themes\Icons\webicon-twitter-m.png" alt="twitter"></img></a>
+				<a href="http://br.linkedin.com/pub/rafael-miceli/24/4aa/718" target="_blank"><img src="assets\themes\Icons\webicon-linkedin-m.png" alt="linkedin"></img></a>
+				<a href="https://github.com/Rafael-Miceli/" target="_blank"><img src="assets\themes\Icons\webicon-github-m.png" alt="github"></img></a>
+			</div>	
+		{% endif %}
         <section id="main_content" class="inner">
+		
             {{ content }}
-        </section>
-    </div>
+        </section>				
+    </div>	
 
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">
           &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          com ajuda de <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          e <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
     </div>
