@@ -34,6 +34,8 @@ Nó próximo artigo: Self-Validating.
 
 Não, espera.... Self-Validating é um princípio bem mais simples, vai aqui mesmo.
 
+ 
+
 ## SELF-VALIDATING
 
 Self-Validating é um princípio que já é praticamente implicito em testes unitários, mas que mesmo assim deve ser lembrado para não criarmos azeites em nossos testes.
