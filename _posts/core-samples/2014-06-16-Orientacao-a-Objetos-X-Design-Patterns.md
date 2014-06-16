@@ -47,7 +47,7 @@ Ou seja, se você possui conhecimentos avançados em Orientação a Objetos voc�
 
 ###SOLID
 
-O [S.O.L.I.D.] (http://en.wikipedia.org/wiki/Solid_(object-oriented_design)), vem de:
+O [S.O.L.I.D.][1], vem de:
 
 	• Single Responsibility Principle (SRP)
 	• Open Closed Principle (OCP)
@@ -62,6 +62,6 @@ Dando um breve exemplo da relação entre OO e design patterns, se vc está quer
 Mas lembrem-se, Oreintação a Objetos avançado acaba fazendo o uso de Design Patterns.
 
 
-
+[1]: http://en.wikipedia.org/wiki/Solid_(object-oriented_design)
 
 
