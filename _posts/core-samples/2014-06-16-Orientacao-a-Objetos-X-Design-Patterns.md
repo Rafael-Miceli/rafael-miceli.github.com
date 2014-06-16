@@ -49,11 +49,11 @@ Ou seja, se você possui conhecimentos avançados em Orientação a Objetos voc�
 
 O S.O.L.I.D., vem de:
 
-	• Single Responsibility Principle (SRP)
-	• Open Closed Principle (OCP)
-	• Liskov Substitution Principle (LSP)
-	• Interface Segregation Principle (ISP)
-	• Dependency Inversion Principle (DIP)
+• Single Responsibility Principle (SRP)
+• Open Closed Principle (OCP)
+• Liskov Substitution Principle (LSP)
+• Interface Segregation Principle (ISP)
+• Dependency Inversion Principle (DIP)
 
 Estes são cinco princípios extremamente importantes para a OO. Robert C. Martin cita eles em seu livro [Agile principle, patterns and practices in C#] (http://www.amazon.com/Agile-Principles-Patterns-Practices-C/dp/0131857258/ref=sr_1_3?ie=UTF8&qid=1402929321&sr=8-3&keywords=robert+c+martin). Eu o recomendo MUITO.
 
