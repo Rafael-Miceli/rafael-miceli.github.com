@@ -30,29 +30,29 @@ Arrange - Act - Assert é uma pattern para nos ajudar a subdividir melhor a estr
 Revendo o teste anterior, eu reescrevi ele de forma para ficar mais fácil de ver esta estrutura:
 
 ####Teste:
+```java
+public class ClienteTest {
 
-	public class ClienteTest {
+	@Test
+	public void Test_Retornar_Nome_Mais_Sobrenome() {
+		
+		//Arrange
+		String nome = "Meu";
+		String sobrenome = "Nome";
 
-		@Test
-		public void Test_Retornar_Nome_Mais_Sobrenome() {
-			
-			//Arrange
-			String nome = "Meu";
-			String sobrenome = "Nome";
+		Cliente cliente = new Cliente();
 
-			Cliente cliente = new Cliente();
+		cliente.Nome = nome;
+		cliente.Sobrenome = sobrenome;
 
-			cliente.Nome = nome;
-			cliente.Sobrenome = sobrenome;
+		//Act
+		String nomeMaisSobrenome = cliente.RetornarNomeMaisSobrenome();          
 
-			//Act
-			String nomeMaisSobrenome = cliente.RetornarNomeMaisSobrenome();          
-
-			//Assert
-			Assert.assertEquals(nome + " " + sobrenome, nomeMaisSobrenome);
-		}
+		//Assert
+		Assert.assertEquals(nome + " " + sobrenome, nomeMaisSobrenome);
 	}
-
+}
+```
 
 Esta estrutura nos ajuda a montar o teste unitário.
 

@@ -68,22 +68,22 @@ class Cliente{
 ```
 ####Teste:
 ```java
-	public class ClienteTest {
+public class ClienteTest {
 
-		@Test
-		public void Test_Retornar_Nome_Mais_Sobrenome() {
+	@Test
+	public void Test_Retornar_Nome_Mais_Sobrenome() {
 
-			String nome = "Meu";
-			String sobrenome = "Nome";
+		String nome = "Meu";
+		String sobrenome = "Nome";
 
-			Cliente cliente = new Cliente();
+		Cliente cliente = new Cliente();
 
-			cliente.Nome = nome;
-			cliente.Sobrenome = sobrenome;
+		cliente.Nome = nome;
+		cliente.Sobrenome = sobrenome;
 
-			Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
-		}
+		Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
 	}
+}
 ```
 
 No próximo artigo (próxima semana) vou abordar mais a prática de testes unitários.	
