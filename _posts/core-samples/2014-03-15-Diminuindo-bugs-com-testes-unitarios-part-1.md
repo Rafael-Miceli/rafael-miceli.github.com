@@ -43,31 +43,31 @@ Este exemplo é clássico. Imagina que seu cliente queira que na aplicação, o 
 O código fica da seguinte forma (por favor atenha-se a abstração de eu não ter criado getters e setters): 
 
 ####Aplicação:
-'''java
-	public class Principal {
+```java
+public class Principal {
 
-		public static void main(String args[]){
+	public static void main(String args[]){
 
-			Cliente cliente = new Cliente();
+		Cliente cliente = new Cliente();
 
-			cliente.Nome = "Ash";
-			cliente.Sobrenome = "Ketchun";
+		cliente.Nome = "Ash";
+		cliente.Sobrenome = "Ketchun";
 
-			System.out.println(cliente.RetornarNomeMaisSobrenome());
-		}
+		System.out.println(cliente.RetornarNomeMaisSobrenome());
 	}
+}
 
-	class Cliente{
-		public String Nome;
-		public String Sobrenome;
+class Cliente{
+	public String Nome;
+	public String Sobrenome;
 
-		public String RetornarNomeMaisSobrenome(){
-			return Nome + " " + Sobrenome;
-		}
+	public String RetornarNomeMaisSobrenome(){
+		return Nome + " " + Sobrenome;
 	}
-'''
+}
+```
 ####Teste:
-'''java
+```java
 	public class ClienteTest {
 
 		@Test
@@ -84,6 +84,6 @@ O código fica da seguinte forma (por favor atenha-se a abstração de eu não t
 			Assert.assertEquals(nome + " " + sobrenome, cliente.RetornarNomeMaisSobrenome());
 		}
 	}
-'''
+```
 
 No próximo artigo (próxima semana) vou abordar mais a prática de testes unitários.	
