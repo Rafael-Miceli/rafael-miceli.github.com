@@ -47,7 +47,7 @@ Ou seja, se você possui conhecimentos avançados em Orientação a Objetos voc�
 
 ###SOLID
 
-O S.O.L.I.D., vem de:
+O [S.O.L.I.D.] (http://en.wikipedia.org/wiki/Solid_(object-oriented_design)), vem de:
 
 	• Single Responsibility Principle (SRP)
 	• Open Closed Principle (OCP)
