@@ -1,10 +1,15 @@
 ---
-layout: page
-title : Artigos
-header : Artigos
-group: navigation
+layout: default
+title: Arquivo de artigos
 ---
-{% include JB/setup %}
-
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+<dl>
+{% assign current = nil %}
+{% for post in site.posts %}
+    {% capture next %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+    {% if next != current %}
+        <dt id="{{ post.date | date: "%B%Y" }}">{{ next }}</dt>
+        {% assign current = next %}
+    {% endif %}
+    <dd><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></dd>
+{% endfor %}
+</dl>

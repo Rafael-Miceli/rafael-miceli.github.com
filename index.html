@@ -1,37 +1,37 @@
 ---
-layout: page
+layout: default
 title: Home
 ---
-
-<div style="margin-bottom: 10px;">
-	<h2>Olá</h2>
-
-	<p>Este blog criado por mim, é um compartilhamento de idéias. A cada postagem comento minha visão referente ao assunto do artigo</p>
-	<p>Se quiser saber um pouco mais sobre mim vá ao <a href="{{site.production_url}}page_about.html">sobre</a> e descubra lá<p>
-	<p>E fique a vontade para ler e comentar o quanto quiser!</p>
-	<br>
-	<br>
+<div class="hfeed">
+{% for post in paginator.posts %}
+    <div class="hentry">
+        <h2 class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+        <ul class="list-inline">
+            {% if post.author %}<li><span class="vcard"><i class="glyphicon glyphicon-user"></i> <span class="fn">{{ post.author }}</span></span></li>{% endif %}
+            {% if post.date %}<li><abbr class="published" title="{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}"><i class="glyphicon glyphicon-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</abbr></li>{% endif %}
+            {% if site.disqus_shortname %}<li><i class="glyphicon glyphicon-comment"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">Comentário</a></li>{% endif %}
+        </ul>
+        <p class="entry-summary">{{ post.content | strip_html | truncatewords: 50 }}</p>
+        <p><a href="{{ site.baseurl }}{{ post.url }}" rel="nofollow">Leia mais</a></p>
+    </div>
+{% endfor %}
 </div>
 
-<h1>Artigos</h1>
-<br>
+<ul class="pagination">
+    {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+        <li><a href="{{ site.baseurl }}/">Ante</a></li>
+    {% else %}
+        <li><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Próx</a></li>
+    {% endif %}
+    {% else %}
+        <li><span class="disabled">Ante</span></li>
+    {% endif %}
 
-{% for post in site.posts offset: 0 limit: 50 %}
-<div class="row-fluid">
-  <div class="span12">
-	<h2><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>
-	<i class="icon-calendar"></i> {{ post.date_str }}
-	<p>
-	  {{ post.summary }}
-	</p>
-	<p>
-	  <!--| <i class="icon-comment"></i> <a href="{{ site.url }}{{ post.url }}#disqus_thread"></a>     -->
-	  <br />
-	  <i class="icon-tags"></i> Tags :{% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}		            
-	</p>
-	<p><a href="{{ post.url }}">Leia mais</a></p>
-  </div>
-</div>    
-<hr style="background-color: black; border: 1"/>
-  
-{% endfor %}
+
+    {% if paginator.next_page %}
+        <li><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Próx</a></li>
+    {% else %}
+        <li><span class="disabled">Próx</span></li>
+    {% endif %}
+</ul>
