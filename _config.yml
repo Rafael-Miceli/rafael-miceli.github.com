@@ -20,7 +20,7 @@ url: http://rafael-miceli.github.io
 
 # Folder part of the path to get to your website without trailing slash
 # (ex: /projectname)
-baseurl: /rafael-miceli.github.com
+baseurl: 
 
 # Code for Google Analytics
 gacode: UA-XXXXX-X
