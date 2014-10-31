@@ -9,7 +9,6 @@ date_str: "2 dez 2013"
 month_str: "Dezembro"
 previous_month_str: "Novembro"
 ---
-{% include JB/setup %}
 
 [Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu há algum tempo um artigo sobre como resolver os problemas que empacam a gente no código.
 
