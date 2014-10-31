@@ -9,7 +9,6 @@ date_str: "16 jun 2014"
 month_str: "Junho"
 previous_month_str: "Junho"
 ---
-{% include JB/setup %}
 
 Um amigo foi a uma entrevista e se deparou com as seguintes perguntas:
 

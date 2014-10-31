@@ -9,7 +9,6 @@ date_str: "04 jun 2014"
 month_str: "Junho"
 previous_month_str: "Maio"
 ---
-{% include JB/setup %}
 
 Beleza. Achei legal até agora testes unitários e decidi começar a praticar um pouco deles.
 

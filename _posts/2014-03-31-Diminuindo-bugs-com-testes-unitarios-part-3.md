@@ -9,7 +9,6 @@ date_str: "31 mar 2014"
 month_str: "Março"
 previous_month_str: "Março"
 ---
-{% include JB/setup %}
 
 Antes de dar continuidade a saga dos testes unitários, vou precisar mencionar que... Não existem apenas testes unitários para realizarmos na nossa aplicação...
 

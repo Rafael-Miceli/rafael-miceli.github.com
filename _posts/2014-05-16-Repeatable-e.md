@@ -9,7 +9,6 @@ date_str: "16 mai 2014"
 month_str: "Maio"
 previous_month_str: "Abril"
 ---
-{% include JB/setup %}
 
 O princípio Repeatable da nossa saga (F.I.R.S.T.) indica que todo o teste tem de poder ser repetido SEMPRE! 
 

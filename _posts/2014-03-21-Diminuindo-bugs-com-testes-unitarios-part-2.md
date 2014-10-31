@@ -9,7 +9,6 @@ date_str: "21 mar 2014"
 month_str: "Março"
 previous_month_str: "Março"
 ---
-{% include JB/setup %}
 
 No [artigo anterior] (http://rafael-miceli.github.io/lessons/2014/03/15/Diminuindo-bugs-com-testes-unitarios-part-1/) expliquei um pouco sobre teste unitário e como eles ajudam a diminuir bugs na sua aplicação.
 
