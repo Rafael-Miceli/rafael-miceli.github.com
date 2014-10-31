@@ -1,5 +1,5 @@
 <div class="widget-wrapper">
-<h3 class="widget-title">Recent Posts</h3>
+<h3 class="widget-title">Posts Recentes</h3>
 <ul>
 {% for post in site.posts limit:10 %}
     <li><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></li>
@@ -8,7 +8,7 @@
 </div>
 
 <div class="widget-wrapper">
-<h3 class="widget-title">Archive</h3>
+<h3 class="widget-title">Arquivo</h3>
 <ul>
 {% for post in site.posts %}
     {% capture next %}{{ post.date | date: "%B %Y" }}{% endcapture %}
@@ -21,7 +21,7 @@
 </div>
 
 <div class="widget-wrapper">
-<h3 class="widget-title">Categories</h3>
+<h3 class="widget-title">Categorias</h3>
 <ul>
   {% if site.categories.first[0] == null %}
     {% for category in site.categories %}
