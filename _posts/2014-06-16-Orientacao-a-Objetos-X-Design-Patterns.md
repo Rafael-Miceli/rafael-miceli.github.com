@@ -2,13 +2,9 @@
 author: Rafael Miceli
 comments: true
 layout: default
-category : lessons
+category : Design Patterns
 title: "Orientação a Objeto X Design Patterns"
-summary: "Um amigo foi a uma entrevista e se deparou com as seguintes perguntas..."
 date: 2014-06-16 11:45:00
-date_str: "16 jun 2014"
-month_str: "Junho"
-previous_month_str: "Junho"
 ---
 
 Um amigo foi a uma entrevista e se deparou com as seguintes perguntas:

@@ -4,11 +4,7 @@ comments: true
 layout: default
 category : lessons
 title: "Empacou no código? Aqui vão algumas dicas..."
-summary: "Doug Bradbury escreveu ha algum tempo um artigo sobre como resolver os problemas que empacam agente no código..."
 date: 2013-12-02 18:50:00
-date_str: "2 dez 2013"
-month_str: "Dezembro"
-previous_month_str: "Novembro"
 ---
 
 [Doug Bradbury] (http://www.8thlight.com/our-team/doug-bradbury) escreveu há algum tempo um artigo sobre como resolver os problemas que empacam a gente no código.

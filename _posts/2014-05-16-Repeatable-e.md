@@ -2,13 +2,9 @@
 author: Rafael Miceli
 comments: true
 layout: default
-category : lessons
+category : unit test
 title: "Repeatable e..."
-summary: "O princípio Repeatable da nossa saga (F.I.R.S.T.) indica que todo o..."
 date: 2014-05-16 16:15:00
-date_str: "16 mai 2014"
-month_str: "Maio"
-previous_month_str: "Abril"
 ---
 
 O princípio Repeatable da nossa saga (F.I.R.S.T.) indica que todo o teste tem de poder ser repetido SEMPRE! 

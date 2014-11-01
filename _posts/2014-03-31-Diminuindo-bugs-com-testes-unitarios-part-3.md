@@ -2,13 +2,9 @@
 author: Rafael Miceli
 comments: true
 layout: default
-category : lessons
+category : unit test
 title: "Diminuindo bugs com testes unitários - part 3"
-summary: "Antes de dar continuidade a saga dos testes unitários, vou precisar mencionar que... Não existem apenas..."
 date: 2014-03-31 11:15:00
-date_str: "31 mar 2014"
-month_str: "Março"
-previous_month_str: "Março"
 ---
 
 Antes de dar continuidade a saga dos testes unitários, vou precisar mencionar que... Não existem apenas testes unitários para realizarmos na nossa aplicação...

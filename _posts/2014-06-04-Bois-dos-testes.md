@@ -2,13 +2,9 @@
 author: Rafael Miceli
 comments: true
 layout: default
-category : lessons
+category : unit test
 title: "Bois dos testes unitários"
-summary: "Beleza. Achei legal até agora testes unitários e decidi começar a praticar um pouco..."
 date: 2014-06-04 15:15:00
-date_str: "04 jun 2014"
-month_str: "Junho"
-previous_month_str: "Maio"
 ---
 
 Beleza. Achei legal até agora testes unitários e decidi começar a praticar um pouco deles.
