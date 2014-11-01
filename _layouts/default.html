@@ -9,7 +9,30 @@
                             {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
                             <ul class="inline">
                                 {% if page.author %}<li><span class="vcard"><i class="icon-user"></i> <span class="fn">{{ page.author }}</span></span></li>{% endif %}
-                                {% if page.date %}<li><abbr class="published" title="{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}"><i class="icon-calendar"></i> {{ page.date | date: "%b %d, %Y" }}</abbr></li>{% endif %}
+                                {% if page.date %}
+									<li>
+										<abbr class="published" title="{{ page.date | date: "%a, %d %b %Y %H:%M:%S %z" }}">
+										<i class="icon-calendar"></i> 
+										{{ page.date | date: "%-d" }}
+										{% assign m = page.date | date: "%-m" %}						
+										{% case m %}
+										  {% when '1' %}Jan
+										  {% when '2' %}Fev
+										  {% when '3' %}Mar
+										  {% when '4' %}Abr
+										  {% when '5' %}Mai
+										  {% when '6' %}Jun
+										  {% when '7' %}Jul
+										  {% when '8' %}Ago
+										  {% when '9' %}Set
+										  {% when '10' %}Out
+										  {% when '11' %}Nov
+										  {% when '12' %}Dez
+										{% endcase %}
+										{{ page.date | date: "%Y" }}						
+										</abbr>
+									</li>
+								{% endif %}
                             </ul>
                             {{ content }}
 

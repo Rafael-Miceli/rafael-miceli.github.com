@@ -8,7 +8,30 @@ title: Home
         <h2 class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
         <ul class="list-inline">
             {% if post.author %}<li><span class="vcard"><i class="glyphicon glyphicon-user"></i> <span class="fn">{{ post.author }}</span></span></li>{% endif %}
-            {% if post.date %}<li><abbr class="published" title="{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}"><i class="glyphicon glyphicon-calendar"></i> {{ post.date | date: "%b %d, %Y" }}</abbr></li>{% endif %}
+            {% if post.date %}
+				<li>
+					<abbr class="published" title="{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}">
+					<i class="glyphicon glyphicon-calendar"></i> 					
+						{{ post.date | date: "%-d" }}
+						{% assign m = post.date | date: "%-m" %}						
+						{% case m %}
+						  {% when '1' %}Jan
+						  {% when '2' %}Fev
+						  {% when '3' %}Mar
+						  {% when '4' %}Abr
+						  {% when '5' %}Mai
+						  {% when '6' %}Jun
+						  {% when '7' %}Jul
+						  {% when '8' %}Ago
+						  {% when '9' %}Set
+						  {% when '10' %}Out
+						  {% when '11' %}Nov
+						  {% when '12' %}Dez
+						{% endcase %}
+						{{ post.date | date: "%Y" }}						
+					</abbr>
+				</li>
+			{% endif %}
             {% if site.disqus_shortname %}<li><i class="glyphicon glyphicon-comment"></i> <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread">Comentário</a></li>{% endif %}
         </ul>
         <p class="entry-summary">{{ post.content | strip_html | truncatewords: 50 }}</p>
