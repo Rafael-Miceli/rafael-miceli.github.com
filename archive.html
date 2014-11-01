@@ -5,9 +5,26 @@ title: Arquivo de artigos
 <dl>
 {% assign current = nil %}
 {% for post in site.posts %}
-    {% capture next %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+    {% capture next %}
+		{% assign m = post.date | date: "%-m" %}						
+		{% case m %}
+		  {% when "1" %}Janeiro
+		  {% when "2" %}Fevereiro
+		  {% when "3" %}Março
+		  {% when "4" %}Abril
+		  {% when "5" %}Maio
+		  {% when "6" %}Junho
+		  {% when "7" %}Julho
+		  {% when "8" %}Agosto
+		  {% when "9" %}Setembro
+		  {% when "10" %}Outubro
+		  {% when "11" %}Novembro
+		  {% when "12" %}Dezembro
+		{% endcase %}
+	    {{ post.date | date: "%Y" }}
+	{% endcapture %}
     {% if next != current %}
-        <dt id="{{ post.date | date: "%B%Y" }}">{{ next }}</dt>
+        <dt id='{{ post.date | date: "%B%Y" }}'>{{ next }}</dt>
         {% assign current = next %}
     {% endif %}
     <dd><a href="{{ site.baseurl }}{{post.url}}">{{ post.title }}</a></dd>
