@@ -30,28 +30,7 @@
 	    {{ post.date | date: "%Y" }}
 	{% endcapture %}
     {% if next != current %}
-        <li>
-			<a href='{{ site.baseurl }}/archive.html#{					
-					{% assign m = post.date | date: "%-m" %}						
-						{% case m %}
-						  {% when "1" %}Janeiro
-						  {% when "2" %}Fevereiro
-						  {% when "3" %}Março
-						  {% when "4" %}Abril
-						  {% when "5" %}Maio
-						  {% when "6" %}Junho
-						  {% when "7" %}Julho
-						  {% when "8" %}Agosto
-						  {% when "9" %}Setembro
-						  {% when "10" %}Outubro
-						  {% when "11" %}Novembro
-						  {% when "12" %}Dezembro
-						{% endcase %}
-					{{ post.date | date: "%Y" }}
-				}'>
-				{{ next }}
-			<a>
-		</li>
+        <li><a href='{{ site.baseurl }}/archive.html#{{ post.date | date: "%B%Y" }}'>{{ next }}</a></li>
         {% assign current = next %}
     {% endif %}
 {% endfor %}
