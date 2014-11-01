@@ -9,14 +9,14 @@ title: Sobre Mim
     <td align="right"></td>
   </tr>
 </table>
-Olá, meu nome é [Rafael Miceli](https://www.facebook.com/Rafa.Miceli)
+Olá, meu nome é [Rafael Miceli](https://www.facebook.com/Rafa.Miceli){:target="_blank"}
 
 Sou desenvolvedor. Focado mais na parte web e atualmente estou cursando faculdade no Infnet e trabalhando na [Concrete Solutions](http://www.concretesolutions.com.br/)
 
 Moro no Rio de Janeiro, com minha noiva Priscilla.
 <table>
   <tr>
-    <td align="left"></td>
+    <td align="left"> </td>
     <td align="right"><img src="http://rafael-miceli.com.br/ico/pri.jpg"/></td>
   </tr>
 </table>
