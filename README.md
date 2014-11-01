@@ -1,9 +1,7 @@
-# Jekyll Bootstrap Blog
+# Ideias com azeite
 
-This is currently under development.  When completed it will be a Jekyll site
-ready to be copied and used for a blog with very little modification required.
+Ideias com azeite is where I share my insights about contexts on IT world.
 
-It is GitHub Pages compatible.
-
-To see a demo site please visit:
-http://andrewshell.github.io/jekyll-bootstrap-blog/
+Please, feel free to visit and comment about it.
+ 
+http://rafael-miceli.com.br
