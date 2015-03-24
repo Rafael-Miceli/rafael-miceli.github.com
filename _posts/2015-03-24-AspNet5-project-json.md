@@ -39,7 +39,7 @@ Após selecionar a dependência, quando selecionar a versão note que o intelise
  
 ![passo 4](http://rafael-miceli.com.br/ico/AspNet5-project-json/passo4.png)
  
-Isso é incrível!  
+####Isso é incrível!  
  
 Se você deixar a versão em branco você vai estar usando sempre a última versão deste pacote. 
  
@@ -48,11 +48,11 @@ Neste momento o AspNet está fazendo download, se necessário, das referências.
  
 ![passo 5](http://rafael-miceli.com.br/ico/AspNet5-project-json/passo5.png)
  
-Vamos agora visualizar nossas referências, e você vai ver dois AspNets abaixo de "Refrences" 
+Vamos agora visualizar nossas referências, e você vai ver dois AspNets abaixo de "References" 
  
 ![passo 6](http://rafael-miceli.com.br/ico/AspNet5-project-json/passo6.png)
  
-Eu sei que você deve estar neste momento whaaaat? 
+Eu sei que você deve estar neste momento: WHAAAAT? 
  
 ![What?](http://rafael-miceli.com.br/ico/AspNet5-project-json/catwhat.jpg)
  
