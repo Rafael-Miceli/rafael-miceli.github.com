@@ -69,19 +69,19 @@ should_login_user_successfully()
 
 Uma observação sobre nomes. Se seu código ou grande parte dele estiver com as classes de regras de negócios em português, escreva seus testes em português 
 
-Vamos rodar nosso teste! para roda-lo clicamos com o botão direito no método que vamos testar e selecionamos run *nome-do-seu-teste*, ou usamos o atallho ctrl+shift+F10. 
+Vamos rodar nosso teste! para rodá-lo clicamos com o botão direito no método que vamos testar e selecionamos run *nome-do-seu-teste*, ou usamos o atalho ctrl+shift+F10. 
 
 ![passo 10](http://rafael-miceli.com.br/ico/TDD-Com-Android-RED/passo10.png)
 
-Excelente! O teste passou, nosso framework esta ok. 
+Excelente! O teste passou, nosso framework está ok. 
 
 ![passo 15](http://rafael-miceli.com.br/ico/TDD-Com-Android-RED/passo15.png)
 
-Continuando, vamos seguir o fluxo do TDD e vamos fazer o teste falhar, para isto vamos tambem importar mais duas bibliotecas, e vamos implementar o design do nosso login. 
+Continuando, vamos seguir o fluxo do TDD e vamos fazer o teste falhar, para isto vamos também importar mais duas bibliotecas, e vamos implementar o design do nosso login. 
 
 ![passo 14](http://rafael-miceli.com.br/ico/TDD-Com-Android-RED/passo14.png)
 
-Ótimo! Agora nosso teste esta falhando porque nossa classe "User" e nosso método "login " não existem. 
+Ótimo! Agora nosso teste está falhando porque nossa classe "User" e nosso método "login " não existem. 
 Vamos cria-los: 
 
 ![passo 11](http://rafael-miceli.com.br/ico/TDD-Com-Android-RED/passo11.png)
