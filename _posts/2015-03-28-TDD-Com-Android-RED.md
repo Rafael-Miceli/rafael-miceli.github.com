@@ -15,7 +15,7 @@ Mas antes, como um programa de receitas, vou mostrar as ferramentas que vamos pr
 
 ###O que vamos precisar
 
-Vamos usar o Android Studio 1.1 e vamos integrar o app com azure. O foco não é o azure, nosso foco não ser em implementar a login feature teste first.
+Vamos usar o Android Studio 1.1 e vamos integrar o app com azure. O foco não é o azure, nosso foco não é em implementar a login feature teste first.
 
 ###Preparando o ambiente
  
