@@ -60,7 +60,8 @@ Explicando as variáveis acima:
 Como você pode ver Scope ainda não existe. Vamos cria-lo.
 
 **Scope**
-```C#
+
+```c#
     [Flags]
     public enum Scope
     {
