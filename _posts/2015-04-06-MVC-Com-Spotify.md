@@ -62,6 +62,7 @@ Como você pode ver Scope ainda não existe. Vamos cria-lo.
 **Scope**
 
 ```c#
+
     [Flags]
     public enum Scope
     {
@@ -113,7 +114,8 @@ Como você pode ver Scope ainda não existe. Vamos cria-lo.
 
 **StringAttribute**
 
-```C#
+```c#
+
 	public class StringAttribute : Attribute
     {
         public String Text { get; set; }
