@@ -61,7 +61,6 @@ Como você pode ver Scope ainda não existe. Vamos cria-lo.
 
 **Scope**
 
-```c#
 
     [Flags]
     public enum Scope
@@ -110,11 +109,9 @@ Como você pode ver Scope ainda não existe. Vamos cria-lo.
             return string.Join(" ", list);
         }
     }
-```
+
 
 **StringAttribute**
-
-```c#
 
 	public class StringAttribute : Attribute
     {
@@ -124,7 +121,7 @@ Como você pode ver Scope ainda não existe. Vamos cria-lo.
             this.Text = text;
         }
     }
-```
+
 
 Ótimo, agora temos nossa url para login pronta! Após pressionar o link, vamos ser redirecionados a página de autenticação do Spotify, que vai nos perguntar se permitimos que nossa Aplicação acesse informações (definidas pelo nosso objeto Scope) de nossa conta.
 Se você aceitar o Spotify vai nos redirecionar para outra página, que seria? A Uri que definimos em nosso Redirect URI.
