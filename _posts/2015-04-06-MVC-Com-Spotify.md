@@ -155,3 +155,7 @@ Aqui estão nosso Token e outros valores.
 
 Após isto podemos realizar as chamadas para a API do Spotify e pegarmos os nomes de nossas playlists.
 Mas isso fica para o próximo artigo...
+
+###Update
+
+O código usado para este artigo estão diponiveis no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/SpotifyApiConsumer/SpotifyConsumer)
