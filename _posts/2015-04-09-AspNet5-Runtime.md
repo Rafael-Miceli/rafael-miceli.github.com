@@ -38,7 +38,7 @@ Isto ocorre porque esta assembly não existe em nosso Core CLR.
  
 #####OK, mas aonde está o Core Clr para eu confirmar que a assembly não existe? 
  
-Se você for a use-folder/.kre/packages vai encontrar nosso Core CLR, e também vai encontrar O CLR que sempre usamos também. Mas apenas uma fração do antigo modelo de CLR esta aqui, o resto continua como antes. No GAC(link). 
+Se você for a use-folder/.kre/packages vai encontrar nosso Core CLR, e também vai encontrar O CLR que sempre usamos também. Mas apenas uma fração do antigo modelo de CLR esta aqui, o resto continua como antes. No [G.A.C.](https://msdn.microsoft.com/pt-br/library/yf1d93sz(v=vs.110).aspx). 
  
 Já o CoreCLR está inteiramente aqui! Ele é muito leve mesmo, e você ainda pode instala-lo com seus projetos. 
  
