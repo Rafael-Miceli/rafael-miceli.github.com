@@ -64,4 +64,4 @@ https://github.com/JohnnyCrazy/SpotifyAPI-NET
 ###Resumindo 
 
 Explorar a API do Spotify é muito legal, e bem fácil. 
-Lembrando que os códigos deste artigo estão em meu github.  
+Lembrando que os códigos deste artigo estão em meu [github](http://github.com/rafael-miceli)
