@@ -59,9 +59,10 @@ Se quiserem explorar mais como consumir a API do Spotify dêem uma olhada na [do
 Para .Net eles recomendam dois projetos de exemplo: 
 
 https://spotifywebapi.codeplex.com/
+
 https://github.com/JohnnyCrazy/SpotifyAPI-NET 
 
 ###Resumindo 
 
 Explorar a API do Spotify é muito legal, e bem fácil. 
-Lembrando que os códigos deste artigo estão em meu github.  
+Lembrando que os códigos deste artigo estão em meu [github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/SpotifyApiConsumer/SpotifyConsumer).  
