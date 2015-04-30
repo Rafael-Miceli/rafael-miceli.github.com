@@ -44,4 +44,6 @@ Se for realizar um deploy de uma aplicação, só esconder o token não é o suf
 
 No AspNet MVC não é comum o uso de sessions, quanto menos user state em nossos servers, mais escalável é nossa aplicação. Mas, eu considero isso uma troca (como geralmente é entre segurança e escalabilidade). 
 
+###Update
 
+Galera, mais uma vez fica o lembrete de quem quiser ver o código na integra o mesmo está no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/SpotifyApiConsumer/SpotifyConsumer)
