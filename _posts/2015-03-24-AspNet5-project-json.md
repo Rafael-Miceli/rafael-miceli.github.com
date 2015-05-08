@@ -52,7 +52,7 @@ Vamos agora visualizar nossas referências, e você vai ver dois AspNets abaixo 
  
 ![passo 6](http://rafael-miceli.com.br/ico/AspNet5-project-json/passo6.png)
  
-Eu sei que você deve estar neste momento: WHAAAAT? 
+Eu sei que provavelmente você deve estar neste momento:
  
 ![What?](http://rafael-miceli.com.br/ico/AspNet5-project-json/catwhat.jpg)
  
