@@ -107,9 +107,11 @@ E então
     dotnet run 
 
 
-O primeiro comando baixa todas as dependências que o seu projeto precisa para rodar 
+O primeiro comando baixa todas as dependências que o seu projeto precisa para rodar.  
 
-Já o segundo compila e executa nosso projeto
+Já o segundo compila e executa nosso projeto. O resultado deve ser o seguinte:
+
+![Resultado](http://rafael-miceli.com.br/ico/DotNetCore-Plus-Ubuntu/resultado-dotnet-core-ubuntu.png)
 
 Vamos continuar esse papo num próximo artigo folks! 
 
