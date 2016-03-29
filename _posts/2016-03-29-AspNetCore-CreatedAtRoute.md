@@ -9,7 +9,7 @@ date: 2016-03-29 13:00:00
 
 Se você esta usando a nova versão do asp.net e em algum momento decidiu fazer um scaffolding de um Controller para uma API com EntityFramework (lembrando que no asp.net Core, a classe Controller e ApiController foram unificadas) deve ter percebido que o template mudou algumas coisas do asp.net 4.5 para o core. 
 
-###Novidades no Controller para API 
+### Novidades no Controller para API 
 
 Agora na criação de um Scaffolding de Controller para API com EF o retorno é o padrão para todos os controllers cirados do Scaffold, __IActionResult__ e não mais __IHttpActionResult__ e, aonde quero me concentrar principalmente, um catch com um novo __HttpStatusCodeResult__. Novo porque neste __HttpStatusCodeResult__ não existe mais overloads do construtor como no anterior com StatusDescription. 
 
@@ -20,11 +20,11 @@ Para não deixar de lado, também houveram algumas mudanças como:
 - Atributo __Produces__ no asp.net Core para indicar o content-type que vai ser retornardo pela classe 
 - Atributo __Route__ no asp.net Core para já especificar a rota de sua API 
 
-###CreatedAtRoute 
+### CreatedAtRoute 
 
 No asp.net Core como tudo novo, o método que era do __ApiController__ antigamente __CreatedAtRoute__, sofreu mudanças. Mas uma delas veio me incomodar 
 
-###Mapeamento um para muitos em API 
+### Mapeamento um para muitos em API 
 
 Como comentei no topo, esse Scaffolding no asp.net Core foi usando o EF, ou seja, ao criar o novo Controller eu seleciono um Model e um Context e ele gera para mim os métodos read/write. 
 Agora vamos criar o seguinte cenário para compreender o problema que quero demonstrar: 
@@ -69,7 +69,7 @@ Nós recebemos esse 502.3 quando estamos tentando realizar um Post de uma classe
 Se você realizar um Get vai ver que esse problema não ocorre ( uma vez que não é chamado o __CreatedAtRoute__) 
 
 
-###Como resolver isso? 
+### Como resolver isso? 
 
 Por hora, a forma mais simples que encontrei para solucionar o problema em uma situação como essa é retornar o seguinte ao final do seu Post com sucesso: 
  
