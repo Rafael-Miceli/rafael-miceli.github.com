@@ -3,7 +3,7 @@ author: Rafael Miceli
 comments: true
 layout: default
 category : aspnetcore
-title: ".Net Core + Ubuntu"
+title: "Asp Net Core + Ubuntu"
 date: 2016-03-30 23:30:00
 ---
 
