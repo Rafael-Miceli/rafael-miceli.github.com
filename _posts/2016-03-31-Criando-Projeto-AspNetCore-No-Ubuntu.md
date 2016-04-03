@@ -3,7 +3,7 @@ author: Rafael Miceli
 comments: true
 layout: default
 category : aspnetcore
-title: "Cirando um projeto Asp Net Core no Ubuntu"
+title: "Criando um projeto Asp Net Core no Ubuntu"
 date: 2016-03-31 20:00:00
 ---
 
