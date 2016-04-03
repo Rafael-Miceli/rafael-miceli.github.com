@@ -49,7 +49,9 @@ Deve aparecer o seguinte:
  
 O DNX (.Net Execution Environment) é um SDK. Usamos o DNX para executar nossos projetos do asp.net core. Com ele compilamos e rodamos nosso projeto. 
  
-Utilizamos o DNVM para instalar o DNX, mas antes temos que instalar uns pré-requisitos para o DNX.  
+Utilizamos o DNVM para instalar o DNX, e podemos ter diferentes versões do DNX em nossa maquina, para facilitar a comparação pense no DNX como o Android Sdk. Você precisa da versão correta do mesmo para conseguir compilar e rodar seu projeto android que seja daquela versão.
+
+Antes de instalarmos o DNX temos que instalar uns pré-requisitos.  
 
 Instalamos com o seguinte código no terminal: 
  
@@ -58,7 +60,8 @@ Instalamos com o seguinte código no terminal:
 Agora, usamos nosso DNVM para instalamos nosso DNX com o código: 
  
     dnvm upgrade -r coreclr
- 
+
+No código acima especificamos que queremos a __ultima versão__ do DNX e que o runtime seja o __coreclr__  
  
 ### Instalando libuv 
  
