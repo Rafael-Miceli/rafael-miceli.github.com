@@ -47,7 +47,7 @@ Deve aparecer o seguinte:
  
 ### DNX 
  
-O DNX significa Dot Net Execution Environment. Usamos o DNX para executar nossos projetos do asp.net core. Com ele compilamos e rodamos nosso projeto. 
+O DNX (.Net Execution Environment) é um SDK. Usamos o DNX para executar nossos projetos do asp.net core. Com ele compilamos e rodamos nosso projeto. 
  
 Utilizamos o DNVM para instalar o DNX, mas antes temos que instalar uns pré-requisitos para o DNX.  
 
