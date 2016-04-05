@@ -1,3 +1,13 @@
+---
+author: Rafael Miceli
+comments: true
+layout: default 
+category : aspnetcore 
+title: "Executando uma aplicação aspnet core" 
+date: 2016-04-05 20:00:00
+--- 
+
+
 Conhecendo um pouco do novo aspnet pelos artigos anteriores vamos rodar nossa aplicação e ver no Ubuntu como levantamos uma aplicação. 
 
 ### DNX e DNU 
