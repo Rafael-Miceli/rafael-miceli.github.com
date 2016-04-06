@@ -43,7 +43,7 @@ __AlunoService.cs__
  
 Perceba que nessa modificação, no Service de criar aluno inserimos uma nova dependência, como só tínhamos três unitários isso é bem fácil de lidar, mas imagina que tivéssemos dezenas (o que em alguns casos não é difícil), isso seria um bom trabalho, e repetitivo até. Imagina futuramente se tivermos mais uma nova dependência? Vai ficar complicada a coisa. Que tal melhorarmos o __Arrange__ do nosso teste então? 
  
-Uma forma que podemos fazer isso é com a design pattern __SUTFactory__, muito bem explicada por Mark Seemann.(http://blog.ploeh.dk/2009/02/13/SUTFactory/) 
+Uma forma que podemos fazer isso é com a design pattern __SUTFactory__, muito bem explicada por [Mark Seemann](http://blog.ploeh.dk/2009/02/13/SUTFactory/). 
  
 ### Autofixture 
  
