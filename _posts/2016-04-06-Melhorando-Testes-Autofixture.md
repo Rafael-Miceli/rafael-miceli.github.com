@@ -79,7 +79,7 @@ Além disso vamos melhorar nosso teste garantindo que ele não tente buscar as m
  
 Para ajustarmos isso vamos refatorar mais uma vez nosso teste para o seguinte: 
  
-```c#
+```csharp
 [TestClass]
 public class AlunoServiceTests
 {
@@ -165,7 +165,7 @@ public class AlunoServiceTests
  
 Agora vamos triangularizar nosso cenário de aluno selecionar matérias criando um teste para a situação que o aluno não escolha nenhuma matéria: 
  
-```c#
+```csharp
 [TestClass]
 public class AlunoServiceTests
 {
