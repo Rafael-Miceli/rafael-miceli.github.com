@@ -19,11 +19,11 @@ Uma forma simples de encontrar uma dependência em nossa classe é sempre quando
 
 ### Dependency Injection (D.I.)
 
-Se notaram no código do post anterior, toda dependência de nossas classes ficavam em seus construtores. E pediam as mesmas por parâmetros do construtor.
+Se notaram no código do post anterior, toda dependência de nossas classes ficavam em seus construtores e pediam as mesmas por parâmetros do construtor.
 
 ![MateriaService](http://rafael-miceli.com.br/ico/Dependency-Injection/MateriaService.png)
 
-Exemplo em nosso __MateriaService__ que temos um dependência com __IMateriaRepo__, mas pedimos a mesma através do construtor, repare também que temos dependência na maioria dos casos em uma Interface e não em uma classe, mas essa explicação do porque disso vem em outro post.
+Exemplo em nosso __MateriaService__ acima que temos uma dependência com __IMateriaRepo__, mas pedimos a mesma através do construtor, repare também que criamos dependências, na maioria dos casos, a uma __Interface__ e não a uma classe, mas a explicação do porque disso vem em outro post.
 
 Pedir dependências pelo construtor é uma forma de injetarmos dependência em nossa classe. Chamamos essa forma de injetar dependência de __Constructor Injection__. Essa é a forma mais comum de injeção de dependência, e uma muito boa, pois assim, sabemos todas as dependência que nossa classe vai ter olhando apenas seu construtor.
 
