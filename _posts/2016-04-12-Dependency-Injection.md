@@ -2,7 +2,7 @@
 author: Rafael Miceli
 comments: true
 layout: default 
-category : solid 
+category : DI 
 title: "Dependency Injection" 
 date: 2016-04-12 09:00:00
 ---
