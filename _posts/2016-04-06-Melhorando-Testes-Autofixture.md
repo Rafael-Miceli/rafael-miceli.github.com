@@ -13,7 +13,7 @@ Ok, dependendo da refatoracão é porque você realmente quebrou algo, mas tem s
  
 ### Problema no Arrange 
  
-Digamos que você possui o seguinte teste para garantir que ai criar um aluno o mesmo não possa ser cadastrado com uma matricula já existente (Todo o código inserido aqui pode ser encontrado no meu [github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/AutoFixtureSample)): 
+Digamos que você possui o seguinte teste para garantir que ao criar um aluno o mesmo não possa ser cadastrado com uma matricula já existente (Todo o código inserido aqui pode ser encontrado no meu [github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/AutoFixtureSample)): 
 
 __AlunoServiceTest.cs__
  

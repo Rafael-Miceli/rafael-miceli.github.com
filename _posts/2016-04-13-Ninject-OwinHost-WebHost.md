@@ -29,10 +29,10 @@ Vamos preparar inicialmente para nossas instâncias funcionarem tanto para MVC q
 
 Para isso instalamos os pacotes:
 
-Ninject
-Ninject.MVC5
-Ninject.Web.Common
-Ninject.Web.WebApi
+- Ninject
+- Ninject.MVC5
+- Ninject.Web.Common
+- Ninject.Web.WebApi
 
 Para instalar os pacotes, dentro do Visual Studio abra a janela _Package Manager Console_ dentro dessa janela no topo dela na opção _Default project_ selecione a aplicação Web e execute o commando:
 
@@ -110,4 +110,4 @@ Vimos duas formas de configurar nossa aplicação com o Ninject. Existe mais uma
 
 Um detalhe bem importante.
 
-Não misture os pacote __OwinHost__ e __WebHost__, tenha apenas referência a um em seu projeto. Pois quando você tem referência aos dois você recebe uma exceção.
+Não misture os pacotes __OwinHost__ e __WebHost__, tenha apenas referência a um em seu projeto. Pois quando você tem referência aos dois você recebe uma exceção.
