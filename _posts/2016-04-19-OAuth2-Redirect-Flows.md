@@ -14,10 +14,10 @@ Quando vamos usar OAuth2 como protocolo para autorização da nossa aplicação,
 Usando um _Redirect Flow_ com Oauth, a autorização realizaria o seguinte fluxo:
 
 1. Você realiza a chamada a área "restrita" do site que você quer acessar (_Client_) 
-- Você é redirecionado para outro site (_Authorization Server_) com uma tela de login. 
-- Você insere seu login e senha e...(__essa parte varia um pouco__) é redirecionado para a url da área restrita (_Client_) com o _access token_.
-- A área restrita que você acessou busca os dados na API (_Resource Server_), passando o _access token_ no Header do request.
-- A API valida o _access token_, e caso o token seja válido, retorna o conteúdo pedido.
+2. Você é redirecionado para outro site (_Authorization Server_) com uma tela de login. 
+3. Você insere seu login e senha e...(__essa parte varia um pouco__) é redirecionado para a url da área restrita (_Client_) com o _access token_.
+4. A área restrita que você acessou busca os dados na API (_Resource Server_), passando o _access token_ no Header do request.
+5. A API valida o _access token_, e caso o token seja válido, retorna o conteúdo pedido.
 
 ![flow](http://rafael-miceli.com.br/ico/OAuth2-Redirect-Flows/flow.png)
 
