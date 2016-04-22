@@ -163,7 +163,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-Repare que adicionamos em nosso _RazorOptions_ a classe __CustomViewLocationExpander__. Esta classe é aonde está o código para criação das Views Padrões do IdentityServer4. Não vou postar esse código aqui por ser Bastante classe, mas ele está em meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/IdentityServer4-Sample/AuthorizationServer)
+Repare que adicionamos em nosso _RazorOptions_ a classe __CustomViewLocationExpander__. Esta classe é aonde está o código para criação das Views Padrões do IdentityServer4. Não vou postar esse código aqui por ser um conjunto de muitas classes, mas ele está em meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/IdentityServer4-Sample/AuthorizationServer)
 
 Para finalizar _usamos_ nossas configurações no método _Configure_:
 
@@ -194,4 +194,4 @@ Este IdentityServer está configurado exatamente como do [post](http://rafael-mi
 
 E ai esta nosso Access Token.
 
-Próximo passo é agora termos nossa aplicação Client se logando através do nosso AuthorizationServer.
+Próximo passo é termos nossa aplicação _Client_ se logando através do nosso _AuthorizationServer_.
