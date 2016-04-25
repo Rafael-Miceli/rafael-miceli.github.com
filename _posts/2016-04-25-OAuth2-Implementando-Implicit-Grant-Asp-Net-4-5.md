@@ -60,8 +60,8 @@ Excelente! Agora precisamos adicionar algumas dependências em nossa aplicação
 
 As dependências são:
 
-Microsoft.Owin.Security.OpenIdConnect
-Microsoft.Owin.Security.Cookies
+    Microsoft.Owin.Security.OpenIdConnect
+    Microsoft.Owin.Security.Cookies
 
 Próximo passo, precisamos configurar nosso _Startup.cs_:
 
