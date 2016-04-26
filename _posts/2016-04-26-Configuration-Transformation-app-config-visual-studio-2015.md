@@ -12,7 +12,7 @@ Por default, quando criamos uma nova aplicação temos um Web.debug e um web.rel
 e esses diferentes configs são muito poderosos para temros diferentes valores em diferentes ambientes (Como por exemplo ConnectionString), 
 como podemos aproveitar isso para o __app.config__?
 
-### Xml transformation
+### Xml Transformation
 
 Para aproveitar essa funcionalidade para nossos app.config's precisamos acessar o __csproj__ da nossa aplicação.
 
@@ -90,9 +90,9 @@ existe um plugin do Visual Studio que facilita muito nossa vida, que se chama [_
 
 Basicamente com ele podemos adicionar todo o código para o __Xml Transformation__ com poucos clicks.
 
-### atenção ao caminho da dll e a task
+### Atenção ao caminho da dll e a task
 
-Uma Atenção que tem que ser observada, é que os exemplos mais famosos na internet são com o visual Studio 2010, 
+Uma atenção que tem que ser observada, é que os exemplos mais famosos na internet são com o visual Studio 2010, 
 então o path da dll __Microsoft.Web.Publishing.Tasks.dll__ muda drasticamente.
 
 Outro ponto importante, é estar atento que apenas o ultimo elemento __Target__ __AfterCompile__ dentro do __csproj__ que vai executar.
