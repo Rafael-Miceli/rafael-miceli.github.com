@@ -32,7 +32,7 @@ new Client
     },
     RedirectUris = new List<string>
     {
-        "http://localhost:5001/signin-oidc"
+        "http://localhost:5001/signin-oidc",
         "http://localhost:5001"
     },
     Enabled = true
