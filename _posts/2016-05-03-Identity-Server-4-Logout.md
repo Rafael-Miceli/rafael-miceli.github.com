@@ -4,12 +4,12 @@ comments: true
 layout: default 
 category : OAuth 
 title: "Identity Server 4 - Logout" 
-date: 2016-04-28 18:30:00
+date: 2016-05-03 09:30:00
 ---
 
 Uma vez que temos nossa aplicação usando nosso Authorization Server para acessar áreas privadas da nossa aplicação, vamos implementar a funcionalidade para realizar logout do mesmo.
 
-Lembrando que todos os código de exemplo deste post estão em meu [Github]()
+Lembrando que todos os código de exemplo deste post estão em meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/IdentityServer4-Sample/AuthorizationServer)
 
 ### Logout no Client
 
