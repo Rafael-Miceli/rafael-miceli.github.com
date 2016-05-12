@@ -35,7 +35,7 @@ Agora vamos preparar o Gulp em uma aplicação nossa.
 
 ![passo1](http://rafael-miceli.com.br/ico/Gulp-Visual-Studio-2015-MVC-5/passo1.png)
 
-Caso você não possua este item de template pode adicionar apenas um arquivo do tipo json e noema-lo como __package.json__.
+Caso você não possua este item de template pode adicionar apenas um arquivo do tipo json e nomea-lo como __package.json__.
 
 3 - Agora vamos adicionar nosso arquivo gulp, muito similar ao passo anterior Add... -> New Item... -> __Gulp Configuration File__.
 
