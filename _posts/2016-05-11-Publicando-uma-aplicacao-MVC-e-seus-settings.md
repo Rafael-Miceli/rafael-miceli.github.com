@@ -2,7 +2,7 @@
 author: Rafael Miceli
 comments: true
 layout: default 
-category : OAuth 
+category : asp.net 
 title: "Publicando uma aplicação MVC e seus settings" 
 date: 2016-05-11 09:30:00
 ---
