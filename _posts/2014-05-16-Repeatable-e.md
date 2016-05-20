@@ -7,7 +7,7 @@ title: "Repeatable e..."
 date: 2014-05-16 16:15:00
 ---
 
-O princípio Repeatable da nossa saga (F.I.R.S.T.) indica que todo o teste tem de poder ser repetido SEMPRE! 
+O princípio Repeatable da nossa saga (F.I.R.S.T.) indica que todo o teste tem de poder ser repetido __SEMPRE__! 
 
 Isto independente de ordem que você execute os testes. 
 
@@ -24,15 +24,13 @@ Com seus testes sendo independentes (unitários) nesse nível, você os roda com
 
 ### E como posso atingir isto?
 
-Como mostrado no artigo [Fast] (http://rafael-miceli.github.io/lessons/2014/04/16/Fast/) os [Test Doubles] (http://www.martinfowler.com/bliki/TestDouble.html) são excelentes para isto. Fakes e Mocks são os caras que você mais vai usar para garantir uma boa [Isolação] (http://rafael-miceli.github.io/lessons/2014/04/29/Isolated/) dos seus testes.
+Como mostrado no artigo [Fast](http://rafael-miceli.github.io/lessons/2014/04/16/Fast/) os [Test Doubles](http://www.martinfowler.com/bliki/TestDouble.html) são excelentes para isto. Fakes e Mocks são os caras que você mais vai usar para garantir uma boa [Isolação](http://rafael-miceli.github.io/lessons/2014/04/29/Isolated/) dos seus testes.
 
 Nó próximo artigo: Self-Validating.
 
-Não, espera.... Self-Validating é um princípio bem mais simples, vai aqui mesmo.
+Não, espera.... Self-Validating é um princípio bem mais simples, vai aqui mesmo. 
 
- 
-
-## SELF-VALIDATING
+### SELF-VALIDATING
 
 Self-Validating é um princípio que já é praticamente implicito em testes unitários, mas que mesmo assim deve ser lembrado para não criarmos azeites em nossos testes.
 
