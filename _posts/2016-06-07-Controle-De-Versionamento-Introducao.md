@@ -41,8 +41,9 @@ DVCS __pode__ trabalhar com um repositório central, mas pode também não traba
 
 ### Qual escolher?
 
-Se você esta aprendendo e vai começar do zero recomendo __MUITO__ um DVCS, apesar de _IMHO_ ele possuir uma curva de aprendizado maior, hoje em dia é muito usado, possui muitas vantagens comparado aos CVCS e bem.... [Github](http://hitgub.com) néDVCS
-__MAS__, se você já utiliza CVCS e precisa usar um controle de versionamento em um projeto e você não tem tempo hábil para aprender um novo continue no CVCS. A curva de aprendizagem vai acabar te tomando tempo (caso você não tenha) e com CVCS você ainda consegue fazer o job.
+Se você esta aprendendo e vai começar do zero recomendo __MUITO__ um DVCS, apesar de _IMHO_ ele possuir uma curva de aprendizado maior, hoje em dia é muito usado, possui muitas vantagens comparado aos CVCS e bem.... [Github](http://hitgub.com) né.
 
-Nos posts seguintes vou no focar no git e como usar o mesmo para controle de versão de um projeto. 
-Com a medida que for passando os posts vão ficar cada vez mais avançados e vamos conhecendo mas do git.
+__MAS__... Se você já utiliza CVCS e precisa usar um controle de versionamento em um projeto e você não tem tempo hábil para aprender um novo continue no CVCS. A curva de aprendizagem vai acabar te tomando tempo (que as vezes não temos), e com CVCS você ainda consegue fazer o job.
+
+Nos posts seguintes vou no focar no __git__ e como usar o mesmo para controle de versionamento de um projeto. 
+Com a medida que for passando os posts vão ficar cada vez mais avançados e vamos conhecendo mais do __git__.
