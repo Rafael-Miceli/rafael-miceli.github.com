@@ -17,7 +17,7 @@ Já expliquei em um post anterior quais as diferenças entre os redirect flows: 
 
 Vamos no passa a passo para implementar nosso Authorization Code Grant.
 
-Passo 1.
+### Passo 1.
 
 Vá na classe InMemoryClients do AuthorizationServer e adicione um novo Client com o ClientId **teste_code**, e com o fluxo __AuthorizationCode__.
 
@@ -43,13 +43,13 @@ new Client
 }
 ```
 
-Passo 2 
+### Passo 2 
 
 Crie uma nova aplicação MVC sem autenticação e no HomeController na action __Contact__ coloque o atributo __Authorize__.
 
 Se rodar a nova aplicação e tentar acessar a página contact vamos ter um 401!
 
-Passo 3
+### Passo 3
 
 Adicione o seguinte código na action __Index__:
 
@@ -73,7 +73,7 @@ public ActionResult Index()
 }
 ```
 
-Passo 4
+### Passo 4
 
 Como viram, para nosso **redirect_uri** da url que vamos chamar precisamos criar uma nova action chamada __AuthCallBack__, e ela fica da seguinte maneira:
 
@@ -109,11 +109,11 @@ Criamos o objeto client (que instância a classe OAuth2Client), passando como pa
 
 Com o resultado desse request recebemos nosso **access_token** e adicionamos o mesmo com um Identity em nosso OwinContext.
 
-Passo 5
+### Passo 5
 
 Vamos voltar em nosso novo Client e atualizar as __RedirectUris__ para a URL de nossa nova aplicação e o Callback também.
 
-Passo 6 
+### Passo 6 
 
 Rodamos a aplicação e testamos.
 
