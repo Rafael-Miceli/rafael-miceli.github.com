@@ -7,7 +7,7 @@ title: "OAuth2 - Authorization Code Grant no startup.cs"
 date: 2016-06-16 10:00:00
 ---
 
-No [post anterior](link) implementamos de forma crua o Authorization Code Grant.
+No [post anterior](http://rafael-miceli.com.br/oauth/2016/06/09/Implementando-Authorization-Code-Grant-IdentityServer3.html) implementamos de forma crua o Authorization Code Grant.
 
 Mas a forma que fizemos isso foi que ao acessar a Index da nossa aplicação (apenas nesse momento), seria feito o redirecionamento para o nosso Authorization Server.
 
@@ -87,11 +87,11 @@ public class Startup
 
 Explicando o codigo:
 
-A primeira etapa de configurar _ClientId_, _Authority_ até a propriedade _SignInAsAuthenticationType_ já expliquei em um [post anterior](link).
+A primeira etapa de configurar _ClientId_, _Authority_ até a propriedade _SignInAsAuthenticationType_ já expliquei em um [post anterior](http://rafael-miceli.com.br/oauth/2016/04/25/OAuth2-Implementando-Implicit-Grant-Asp-Net-4-5.html).
 
 Nesta parte o principal é nosso _Notifications_, que vai instanciar __OpenIdConnectAuthenticationNotifications__ e vamos popular sua propriedade _AuthorizationCodeReceived_.
 
-Em _AuthorizationCodeReceived_ nós estamos fazendo o equivalente a nosso __Callback__ do [post anterior](link).
+Em _AuthorizationCodeReceived_ nós estamos fazendo o equivalente a nosso __Callback__ do [post anterior](http://rafael-miceli.com.br/oauth/2016/06/09/Implementando-Authorization-Code-Grant-IdentityServer3.html).
 
 No post anterior ao chamar o endpoint _Authorize_ passamos um endereço de __Callback__. Dessa vez não precisamos do __Callback__ que criamos anteriormente, uma vez que nosso _AuthorizationCodeReceived_ faz isso por nós.
 
@@ -109,5 +109,4 @@ Pronto!
 
 Temos nosso Authorization Code Grant configurado.
 
-Em um próximo post vamos ver o Hybrid Flow.
 
