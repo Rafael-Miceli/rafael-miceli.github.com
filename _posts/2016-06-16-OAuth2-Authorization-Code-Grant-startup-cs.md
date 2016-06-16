@@ -40,7 +40,7 @@ public class Startup
             ClientId = "teste_code",
             Authority = "http://localhost:54734",
             RedirectUri = "http://localhost:60758/",
-            ResponseType = "code id_token",
+            ResponseType = "code",
             Scope = "openid profile",
             PostLogoutRedirectUri = "http://localhost:60758/",
             SignInAsAuthenticationType = "cookies",
