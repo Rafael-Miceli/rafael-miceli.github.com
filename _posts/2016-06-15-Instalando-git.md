@@ -7,7 +7,7 @@ title: "Instalando git"
 date: 2016-06-15 10:30:00
 ---
 
-Git atualmente é provavelmente a ferramenta de controle de versionamento mais famosa atualmente.
+Git é provavelmente a ferramenta de controle de versionamento mais famosa atualmente.
 
 Criado em 2005 pela comunidade Linux e pelo Linus Torvald, é extremamente poderoso para o trabalho com múltiplos branchs e até por isso exige uma certa curva de aprendizado.
 
