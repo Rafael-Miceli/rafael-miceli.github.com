@@ -109,4 +109,6 @@ Pronto!
 
 Temos nosso Authorization Code Grant configurado.
 
+Mas... Se você for perspicaz vai perceber que ai possui um erro. No post seguinte tem a correção. 
+
 
