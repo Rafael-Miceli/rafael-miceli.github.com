@@ -122,7 +122,7 @@ public ActionResult RefreshAccessToken()
 
     //client para fazr request do Novo token com o refresh_toke atual
     var client = new OAuth2Client(new Uri("http://localhost:54734/connect/token"),
-        "socialnetwork_code", "secret");
+        "teste_code", "secret");
 
     var requestResponse = client.RequestAccessTokenRefreshToken(
         claimsPrincipal.FindFirst("refresh_token").Value);
