@@ -22,11 +22,11 @@ Mas o IdentityServer é o mais completo, além [do time Asp.Net ter pedido para 
 
 ### O IdentityServer Suporta MultiTenacy?
 
-Infelizmente ainda não, mas é uma funcionalidade que esta para vir de acordo com o time no [Github](https://github.com/IdentityServer/IdentityServer3/issues/39).
+__R:__ Infelizmente ainda não, mas é uma funcionalidade que esta para vir de acordo com o time no [Github](https://github.com/IdentityServer/IdentityServer3/issues/39).
 
 ### Como faço o reconhecimento dos usuários? Com Claims?
 
-As Claims são usadas para possuir informações extras de quem possui aquele token, geralmente o reconhecimento é feito pelo Claim: [sub](https://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#rfc.section.4.1.2), que por convenção vai possuir o identificador do portador do token.
+__R:__ As Claims são usadas para possuir informações extras de quem possui aquele token, geralmente o reconhecimento é feito pelo Claim: [sub](https://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#rfc.section.4.1.2), que por convenção vai possuir o identificador do portador do token.
 
 Por exemplo, se você realizou login como um _cliente_ a Claim __sub__ vai possuir o id daquele "cliente".
 
