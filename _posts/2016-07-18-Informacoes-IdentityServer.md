@@ -18,7 +18,7 @@ __R:__ Não, além do [Identity Server](https://github.com/IdentityServer/Identi
 - [AspNet Identity](http://www.asp.net/identity), _(Com um excelente passo a passo do [Taiseer Joudeh](http://bitoftech.net/) que está [neste link](http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/))_  
 - [OAuthServer](https://oauthserver.codeplex.com/)
 
-Mas o IdentityServer é o mais completo, além [do time Asp.Net ter pedido para que o IdentityServer seja o susbstituto do Middleware katana](https://leastprivilege.com/2016/01/11/announcing-identityserver-for-asp-net-5-and-net-core/).
+Mas além de o IdentityServer ser completo, [o time Asp.Net também pediu para que o IdentityServer seja o susbstituto do Middleware katana](https://leastprivilege.com/2016/01/11/announcing-identityserver-for-asp-net-5-and-net-core/).
 
 ### O IdentityServer Suporta MultiTenacy?
 
