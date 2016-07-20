@@ -11,7 +11,7 @@ Um dos problemas mais comuns que vejo (e já tive) ao configurar Oauth identity 
 
 Este post vai sendo atualizado com o tempo, já que existem diversos fatores que podem influenciar seu loop infinito e não tenho como descrever todos aqui. 
 
-Já existe muita documentação[¹]() do time do IdentityServer em cima disso. Neste post vou explicar de uma forma mais simples as causas.
+Já existe muita documentação[¹](http://rafael-miceli.com.br/oauth/2016/07/20/Identityserver-Loop-Infinito-Redirecionamento.html#referncias) do time do IdentityServer em cima disso. Neste post vou explicar de uma forma mais simples as causas.
 
 ### Causas para e esse problema
 
