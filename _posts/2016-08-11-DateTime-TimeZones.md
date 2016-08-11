@@ -38,6 +38,6 @@ Já, se formos realizar uma aplicação que vai realizar fornecimento de mercado
 
 Só para se ter uma ideia como comos um país de proporção grande, temos 4 Time Zones diferentes!
 
-![timezones](https://www.google.com.br/search?q=Time+zones&biw=1366&bih=643&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiJwtv7r7nOAhXKfpAKHYA4BOsQ_AUIBygC#tbm=isch&q=Time+zones+brazil&imgrc=GIoKvqWpsQAHnM%3A)
+![timezones](http://www.manual2brazil.com/LearnAbout/Travel-Needs/~/images/Travel-Needs-Time-Zones.jpg)
 
 No próximo post, vamos ver o que fazer quando precisamos nos preocupar com Time Zones.
