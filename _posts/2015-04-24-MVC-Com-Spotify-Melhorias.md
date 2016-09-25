@@ -46,4 +46,4 @@ No AspNet MVC não é comum o uso de sessions, quanto menos user state em nossos
 
 ###Update
 
-Galera, mais uma vez fica o lembrete de quem quiser ver o código na integra o mesmo está no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/SpotifyApiConsumer/SpotifyConsumer)
+Galera, mais uma vez fica o lembrete de quem quiser ver o código na integra o mesmo está no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/SpotifyApiConsumer)

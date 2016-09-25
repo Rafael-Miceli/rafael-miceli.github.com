@@ -158,4 +158,4 @@ Mas isso fica para o próximo artigo...
 
 ###Update
 
-O código usado para este artigo estão diponiveis no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/SpotifyApiConsumer/SpotifyConsumer)
+O código usado para este artigo estão diponiveis no meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/SpotifyApiConsumer)
