@@ -27,4 +27,4 @@ Uma das coisas que me motivou bastante foi um amigo meu [Scott Hanselmann](https
 E se gostarem de algum artigo meu, podem compartilhar e comentar a vontade.
 
 Se quiserem me conhecer nas redes sociais como [GitHub](https://github.com/Rafael-Miceli/){:target="_blank"}, [Facebook](https://www.facebook.com/Rafa.Miceli){:target="_blank"} ou [LinkedIn](http://br.linkedin.com/pub/rafael-miceli/24/4aa/718){:target="_blank"}
-, Basta só clicar nos nomes das redes que acabei de citar.
+, basta só clicar nos nomes das redes que acabei de citar.
