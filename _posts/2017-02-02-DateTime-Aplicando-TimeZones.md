@@ -2,7 +2,7 @@
 author: Rafael Miceli
 comments: true
 layout: default 
-category : Lean
+category : DateTime
 title: "DateTime - Aplicando Time Zones" 
 date: 2017-02-02 15:00:00
 ---
