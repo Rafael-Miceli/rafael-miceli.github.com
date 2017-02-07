@@ -3,7 +3,7 @@ author: Rafael Miceli
 comments: true
 layout: default 
 category : DateTime
-title: "DateTime - Aplicando Time Zones" 
+title: "DateTime - Trabalhando com UTC em seu Back e Front" 
 date: 2017-02-02 15:00:00
 ---
 
@@ -55,7 +55,7 @@ A função `getTimeZoneOffset` nos retorna a diferença em minutos do UTC +0 par
 
 Vamos aplicar como faríamos isso:
 
-```csharp
+```javascript
 var d = new Date();
 var offsetms = d.getTimezoneOffset() * 60 * 1000;
 $('.UTCTime').each(function () {
