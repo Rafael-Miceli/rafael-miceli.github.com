@@ -73,7 +73,7 @@ Aplicando novamente em nosso caso aonde r = 4 vamos ter também o (2,4) e o (3,3
 
 Ok, agora precisamos unir esses dois caras. Repare que o que precisamos é encontrar quem desses o `n/2 - l + 1` ou `r - n/2 + 1` vai ser o menor para sabermos quantas somas podemos fazer de n no intervalo entre l e r!
 
-Então temos no o seguinte algoritmo:
+Então temos o seguinte algoritmo:
 
 ```python
 result = min((n/2 - l + 1), (r - n/2 + 1))    
