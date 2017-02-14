@@ -7,7 +7,9 @@ title: "Dev Mind - Product Market Fit"
 date: 2017-02-07 20:00:00
 ---
 
-### Product Market Fit?
+Este post é uma continuação do [Post anterior](http://rafael-miceli.com.br/lean/2017/01/31/Developer-Mind.html) a respeito de como desenvolvedores geralmente decidem jogar um produto no mercado e como podemos fazer para antes, validarmos nossa ideia e polir ela para atender ao mercado.
+
+### Product Market Fit
 
 Mas agora o que queremos aprender? Como saber o que precisamos para aprender?
 
