@@ -7,7 +7,7 @@ title: "Dev Mind - Satisfação x Importância"
 date: 2017-02-14 15:30:00
 ---
 
-Este post é uma continuação do [Post anterior](http://rafael-miceli.com.br/lean/2017/02/07/Dev-Mind-Product-Market-Fit.html) a respeito de como desenvolvedores geralmente decidem jogar um produto no mercado e como podemos fazer para antes, validarmos nossa ideia e polir ela para atender ao mercado.
+Este post é uma continuação do [Post anterior](http://rafael-miceli.com.br/lean/2017/02/07/Dev-Mind-Product-Market-Fit.html) a respeito de como desenvolvedores geralmente decidem jogar um produto no mercado e como podemos fazer para antes validarmos nossa ideia e polir ela para atender ao mercado.
 
 ### Identifique necessidades não servidas 
 
