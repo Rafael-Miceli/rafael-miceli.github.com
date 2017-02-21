@@ -13,16 +13,16 @@ Dando continuidade a nossa etapa de Identificar necessidades não servidas podem
 
 ### Modelo Kano
 
-Analisando as soluções coletadas das informações de problemas que seu potencial cliente passa separe elas usando o "modelo Kano". Neste modelo você divide as funcionalidade como "Must Have", "Performance Benefit" e "Delighter".
+Analisando as soluções coletadas das informações de problemas que seu potencial cliente passa separe elas usando o __Modelo Kano__. Neste modelo você divide as funcionalidade como __Must Have__, __Performance Benefit__ e __Delighter__.
 
 ![kano model](http://rafael-miceli.com.br/ico/Dev-Mind/kano-model.png)
 
-"Must Have" são funcionalidades que são de alta importância, mas que elas por si só não vão melhorar a satisfação do potencial cliente.
+__Must Have__ são funcionalidades que são de alta importância, mas que elas por si só não vão melhorar a satisfação do potencial cliente.
 
-No caso da sua tia conseguir encontrar o remédio que ela busca é imprescindível, pois hoje ela já faz isso. Uma hipótese do que poderia ser um "Performance Benefit" seria você exibir o preço do remédio pesquisado em cada uma das farmácias próximas a ela. Uma hipótese de Delighter pode ser demonstrar o quanto você ecnomizaria com o remédio mais barato vs o mais caro em um período de tempo. Para que sua tia pereba o quanto ela vai economizar nesse período de tempo usando o App.
+No caso da sua tia conseguir encontrar o remédio que ela busca é imprescindível, pois hoje ela já faz isso. Uma hipótese do que poderia ser um __Performance Benefit__ seria você exibir o preço do remédio pesquisado em cada uma das farmácias próximas a ela. Uma hipótese de Delighter pode ser demonstrar o quanto você ecnomizaria com o remédio mais barato vs o mais caro em um período de tempo. Para que sua tia pereba o quanto ela vai economizar nesse período de tempo usando o App.
 
-De acordo com o modelo Kano com a medida que o mercado que voxê está apontando amadurece o que era "Performance Benefit" se torna "Must Have" e o que era "Delighter" se torna "Performance Benefit" e novos "Delighters" são descobertos.
+De acordo com o modelo Kano com a medida que o mercado que voxê está apontando amadurece o que era __Performance Benefit__ se torna __Must Have__ e o que era __Delighter__ se torna __Performance Benefit__ e novos __Delighters__ são descobertos.
 
-Um exemplo ilustrado disso podemos ver em softwares de ponto de venda para empresas de médio porte. Quando sincronizar suas vendas em um servidor central era um "Performance Benefit" hoje em dia é um "Must Have" da mesma forma que possuir um PDV que fosse "Fault Tolerant" ja foi um "Delighter", hoje é um "Performance Benefit".
+Um exemplo ilustrado disso podemos ver em softwares de ponto de venda para empresas de médio porte. Quando sincronizar suas vendas em um servidor central era um __Performance Benefit__ hoje em dia é um __Must Have__ da mesma forma que possuir um PDV que fosse __Fault Tolerant__ ja foi um __Delighter__, hoje é um __Performance Benefit__.
 
 
