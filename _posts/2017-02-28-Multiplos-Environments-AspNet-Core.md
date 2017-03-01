@@ -11,11 +11,11 @@ Se você estivesse fazendo uma aplicação com AspNet MVC 5 e quisesse ter seu c
 
 De padrão de inicio um template de aplicação MVC 5 ja vinha com web.debug.config e web.release.config.
 
-![imagem1](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem1.png)
+![imagem1](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem1.PNG)
 
 Para você alternar entre configs de diferentes ambientes bastava você selecionar o seu build configuration no Visual Studio
 
-![imagem2](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem2.png)
+![imagem2](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem2.PNG)
 
 Mas… Com AspNet Core isso deu uma mudada…
 
@@ -30,27 +30,27 @@ Agora utilizamos o __appsettings.json__ paara armazenarmos as configurações da
 
 Se você criar uma aplicação AspNet Core com o template de Aplicação Web completa com Yo você pode ver seu appsettings.json
 
-![imagem3](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem3.png)
+![imagem3](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem3.PNG)
 
 Perceba que não temos ainda os ambientes… Mas vamos fazer isso. Crie uma copia do appsettings.json, mas com o nome __appsettings.Production.json__ e renomeie o outro para __appsettings.Development.json__.
 
-![imagem4](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem4.png)
+![imagem4](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem4.PNG)
 
 E neles crie uma key para testarmos chamada __"Teste"__ e no __appsettings.Development.json__ coloque o valor __Dev__ e no outro __Prod__.
 
-![imagem5](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem5.png)
+![imagem5](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem5.PNG)
 
-![imagem6](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem6.png)
+![imagem6](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem6.PNG)
 
 ### Preparando o Startup.cs
 
 Em nosso Startup.cs nós temos nossa propriedade __Configuration__ que é um __IConfigurationRoot__ que define aonde estão as configurações da nossa aplicação! Isso definimos no __Construtor__ do nosso Startup.cs com um __ConfigurationBuilder__ 
 
-![imagem7](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem7.png)
+![imagem7](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem7.PNG)
 
 E lá temos nosso .AddJsonFile adicionando o __appSettings.ambiente.json__:
 
-![imagem8](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem8.png)
+![imagem8](http://rafael-miceli.com.br/ico/Multiplos-Environments-AspNet-Core/imagem8.PNG)
 
 O próximo passo é definirmos qual __Environment__ vai ser injetado no parâmetro do nosso construtor __IHostingEnvironment__. Se não dfinirmos o __Envronment__ por padrão ele vai setar o Production, o que não queremos para desenvolver localmente.
 
