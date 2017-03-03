@@ -77,5 +77,9 @@ Para garantir que você vai ver a conexão do seu user-secrets adicione o seguin
 
 `Console.WriteLine($"Connection = {Configuration.GetConnectionString("DefaultConnection")}");`
 
-Com isso temos nosso Secret Manager configurado. E depois trago os próximos ambientes.
+Com isso temos nosso Secret Manager configurado.
+
+Caso você queira saber aonde seu `seret.json`se encontra, no windows a localização é:
+
+`%APPDATA%\Roaming\microsoft\UserSecrets\<userSecretsId>\secrets.json`
 
