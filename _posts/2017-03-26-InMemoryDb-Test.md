@@ -4,7 +4,7 @@ comments: true
 layout: default 
 category : aspnetcore
 title: "Realizando testes com InMemory provider do EF Core" 
-date: 2017-03-25 21:30:00
+date: 2017-03-26 21:00:00
 ---
 
 EF Core possui bastante [Providers](https://docs.microsoft.com/en-us/ef/core/providers/), e um deles que veremos em específico é o __InMemory__
