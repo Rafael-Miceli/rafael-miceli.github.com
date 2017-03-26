@@ -64,7 +64,7 @@ Agora precisamos adicionar o pacote para acessar o Secret em nossa aplicação:
  }
 ```
 
-Por fim adicionamos o seguinte codigo no construtor do nosso Startup.cs após instanciar o __COnfigurationBuilder()__:
+Por fim adicionamos o seguinte codigo no construtor do nosso Startup.cs após instanciar o __ConfigurationBuilder()__:
 
 ```csharp
 if (env.IsDevelopment())
