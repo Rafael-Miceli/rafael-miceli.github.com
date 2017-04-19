@@ -3,7 +3,7 @@ author: Rafael Miceli
 comments: true
 layout: default 
 category : aspnetcore
-title: "Trabalhando com LINQ Intersect e Except" 
+title: "Trabalhando com LINQ Intersect" 
 date: 2017-04-18 23:50:00
 ---
 
