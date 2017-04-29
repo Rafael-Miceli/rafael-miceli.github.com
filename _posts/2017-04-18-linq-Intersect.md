@@ -2,7 +2,7 @@
 author: Rafael Miceli
 comments: true
 layout: default 
-category : aspnetcore
+category : dotnet
 title: "Trabalhando com LINQ Intersect" 
 date: 2017-04-18 23:50:00
 ---
