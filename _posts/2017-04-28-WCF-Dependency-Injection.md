@@ -16,17 +16,23 @@ Então encontrei o do [Chsakell](https://chsakell.com/2015/07/04/dependency-inje
 Para aplicarmos ele seguimos os seguintes passos:
 
 1 - Crie seu projeto WCF com o template do Visual Studio (Lembrando que o [Asp.Net Core ainda não possui WCF Server](https://github.com/dotnet/wcf/issues/1200))
+
 2 - Instale o pacote do AutoFac para WCF `install-package Autofac.Wcf`
+
 3 - Crie uma classe chamada Bootstrapper na raiz do seu projeto
+
 4 - Implemente a classe Bootstrapper da seguinte maneira
 Nesta classe o método estático `BuildCotainer`vai criar o container do Autofac e dentro dele vamos mapear as instâncias que queremos injetar. E vamos retornar este Container.
+
 5 - Adicione um Global.asax na sua aplicação e implemente o seguinte código em seu `Application_Start`:
 
     IContainer container = Bootstrapper.BuildContainer();
     AutofacHostFactory.Container = container;
 
 6 - Agora expanda seu `.svc` e exclua o seu code behind.
+
 7 - Após, crie uma nova classe `AlunosService`, implemente nela o `IService1` já existente
+
 8 - Agora dentro seu `.svc` (que está sozinho), remova a propriedade `CodeBehind` e na propriedade `Service` insira sua Interface, `IService1`, com o namespace completo dela mais o namespace apenas, e depois adicione a proriedade factory apontando para o `AutofacServiceHostFactory`. Vai ficar tipo assim:
 
 ```
