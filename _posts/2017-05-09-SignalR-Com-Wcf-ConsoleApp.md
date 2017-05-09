@@ -37,8 +37,8 @@ Feito isso, vamos adicionar o SignalR em nosso projeto:
 
 Após a instalação ter concluído precisamos adicionar a rota para o Endpoint **signalr** em nosso projeto no **startup.cs**
 
-csharp
-```
+
+```csharp
 public void Configuration(IAppBuilder app)
 {
     app.MapSignalR();
@@ -47,8 +47,8 @@ public void Configuration(IAppBuilder app)
 
 Após isso nosso próximo passo e criar nosso Hub, mas para organizar melhor, vamos colocar nosso hub em um projeto diferente, ou seja, vou criar uma class library e nela vamos criar nosso hub (também vamos precisar instalar mais uma vez o SignalR.
 
-csharp
-```
+
+```csharp
 public class MyHub: Hub
 {
     public void MyCall()
@@ -65,8 +65,8 @@ Como nosso hub esta em um projeto diferente do que inicializa nosso signalR vamo
 
 Sendo assim nosso startup.cs fica da seguinte maneira
 
-csharp
-```
+
+```csharp
 public void Configuration(IAppBuilder app)
 {
     AppDomain.CurrentDomain.Load(typeof(MyHub).Assembly.FullName);
@@ -76,8 +76,7 @@ public void Configuration(IAppBuilder app)
 
 E por fim vamos fazer nosso Service1 realizar um broadcast para os clients
 
-csharp
-```
+```csharp
 public class Service1 : IService1
 {
 
@@ -121,8 +120,8 @@ Agora instalamos o signarR client:
 
 No controller do nosso form, adicionamos o seguinte código:
 
-csharp
-```
+
+```csharp
 var hubConnection = new HubConnection("http://localhost:61464/");
 IHubProxy stockTickerHubProxy = hubConnection.CreateHubProxy("MyHub");
 stockTickerHubProxy.On<string>("notify", message => Console.WriteLine("Do WCF {0}", message));
