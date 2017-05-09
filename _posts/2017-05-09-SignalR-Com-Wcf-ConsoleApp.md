@@ -4,7 +4,7 @@ comments: true
 layout: default 
 category : signalr
 title: "Push Notification com SignalR e WCF" 
-date: 2017-05-06 19:30:00
+date: 2017-05-09 00:50:00
 ---
 
 Imagine que você tem uma aplicação windows forms (Ou console app, ou WPF) e você queria receber notificações de um WCF que está recebendo dados de outro serviço? Para quem já teve a curiosidade ou necessidade de fazer isso, vou documentar como resolvi esta funcionalidade.
