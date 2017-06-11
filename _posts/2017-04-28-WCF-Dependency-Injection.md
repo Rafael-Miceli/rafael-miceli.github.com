@@ -21,8 +21,7 @@ Para aplicarmos ele seguimos os seguintes passos:
 
 3 - Crie uma classe chamada Bootstrapper na raiz do seu projeto
 
-4 - Implemente a classe Bootstrapper da seguinte maneira
-Nesta classe o método estático `BuildCotainer`vai criar o container do Autofac e dentro dele vamos mapear as instâncias que queremos injetar. E vamos retornar este Container.
+4 - Nesta classe vamos posteriormente criar um método estático `BuildCotainer` que vai criar o container do Autofac e dentro dele vamos mapear as instâncias que queremos injetar e vamos retornar este Container.
 
 5 - Adicione um Global.asax na sua aplicação e implemente o seguinte código em seu `Application_Start`:
 
@@ -50,9 +49,9 @@ Nesta classe o método estático `BuildCotainer`vai criar o container do Autofac
 public static IContainer BuildContainer()
 {
     var builder = new ContainerBuilder();    
-    builder.RegisterType<IService1>().As<AlunoService>();    
+    builder.RegisterType<AlunoService>().As<IService1>();    
     return builder.Build();
 }
 ```
 
-Pronto! Temos nossa injeção de dependencia com Autofac no WCF. Lembrando que este código esta em meu [repo do Github](https://github.com/Rafael-Miceli/Blog-Codes)
+Pronto! Temos nossa injeção de dependencia com Autofac no WCF. Lembrando que este código esta no [repo do Github deste post](https://github.com/Rafael-Miceli/blog-codes/tree/WcfApp). Além disso o código de exemplo no Github está com os nomes das classes diferentes.
