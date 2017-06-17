@@ -9,9 +9,11 @@ date: 2017-06-17 14:00:00
 
 Imagine que você vai começar a fazer uma aplicação com .NetCore, e ao realizar o comando `dotnet restore` você percebe que o DotNet está tentando fazer o restore de um local que não é o _Source_ padrão do Nuget e começa a tomar diversos 404 (_Not Found_). Mais ou menos assim:
 
-`Restoring packages for C:\Users\you\My.csproj...
+```
+Restoring packages for C:\Users\you\My.csproj...
   Retrying 'FindPackagesByIdAsyncCore' for source 'http://YourSource/FindPackagesById()?id='Package.YouAre.LookingFor''.
-  Response status code does not indicate success: 404 (Not Found).`
+  Response status code does not indicate success: 404 (Not Found).
+```
 
 ### Pensando o cenário
 
