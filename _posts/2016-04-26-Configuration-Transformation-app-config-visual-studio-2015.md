@@ -31,7 +31,7 @@ No final dele vamos encontrar um seguinte trecho para tasks.
 
 O que vamos fazer aqui, vai ser usar a funcionalidade do web.config de __Xml transformation__ no __csproj__ de um console app, afinal, ambos são Xml.
 
-> Lembrando que o projeto com este código está em meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/master/IdeiasComAzeite/ConsoleAppConfigs)
+> Lembrando que o projeto com este código está em meu [Github](https://github.com/Rafael-Miceli/Blog-Codes/tree/MultipleConfigs/ConsoleAppConfigs)
 
 Para podermos fazer a transformação, se estiver no visual studio 2015, precisamos adicionar o seguinte trecho de código no __csproj__ logo abaixo do elemtno _Import_:
 
